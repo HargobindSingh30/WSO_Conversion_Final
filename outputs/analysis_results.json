@@ -1,0 +1,176 @@
+{
+  "overall": {
+    "users": 1708,
+    "upgraders": 237,
+    "conversion_pct": 13.9
+  },
+  "by_channel": [
+    {
+      "profile_source": "resume_workshop_registration",
+      "users": 233,
+      "upgraders": 53,
+      "conversion_pct": 22.7
+    },
+    {
+      "profile_source": "info_session_registration",
+      "users": 256,
+      "upgraders": 54,
+      "conversion_pct": 21.1
+    },
+    {
+      "profile_source": "self_completed_profile",
+      "users": 143,
+      "upgraders": 23,
+      "conversion_pct": 16.1
+    },
+    {
+      "profile_source": "resume_template_form",
+      "users": 443,
+      "upgraders": 59,
+      "conversion_pct": 13.3
+    },
+    {
+      "profile_source": "email_capture",
+      "users": 258,
+      "upgraders": 30,
+      "conversion_pct": 11.6
+    },
+    {
+      "profile_source": "unknown",
+      "users": 375,
+      "upgraders": 18,
+      "conversion_pct": 4.8
+    }
+  ],
+  "by_school_tier": [
+    {
+      "school_tier": "target",
+      "users": 385,
+      "upgraders": 97,
+      "conversion_pct": 25.2
+    },
+    {
+      "school_tier": "semi_target",
+      "users": 510,
+      "upgraders": 85,
+      "conversion_pct": 16.7
+    },
+    {
+      "school_tier": "non_target",
+      "users": 438,
+      "upgraders": 37,
+      "conversion_pct": 8.4
+    },
+    {
+      "school_tier": "unknown",
+      "users": 375,
+      "upgraders": 18,
+      "conversion_pct": 4.8
+    }
+  ],
+  "by_class_year": [
+    {
+      "class_year": "junior",
+      "users": 495,
+      "upgraders": 98,
+      "conversion_pct": 19.8
+    },
+    {
+      "class_year": "senior",
+      "users": 354,
+      "upgraders": 61,
+      "conversion_pct": 17.2
+    },
+    {
+      "class_year": "sophomore",
+      "users": 282,
+      "upgraders": 42,
+      "conversion_pct": 14.9
+    },
+    {
+      "class_year": "freshman",
+      "users": 202,
+      "upgraders": 18,
+      "conversion_pct": 8.9
+    },
+    {
+      "class_year": "unknown",
+      "users": 375,
+      "upgraders": 18,
+      "conversion_pct": 4.8
+    }
+  ],
+  "by_major_cat": [
+    {
+      "major_cat": "finance_econ",
+      "users": 415,
+      "upgraders": 97,
+      "conversion_pct": 23.4
+    },
+    {
+      "major_cat": "stem",
+      "users": 411,
+      "upgraders": 63,
+      "conversion_pct": 15.3
+    },
+    {
+      "major_cat": "other",
+      "users": 507,
+      "upgraders": 59,
+      "conversion_pct": 11.6
+    },
+    {
+      "major_cat": "unknown",
+      "users": 375,
+      "upgraders": 18,
+      "conversion_pct": 4.8
+    }
+  ],
+  "intent_actions": {
+    "mentor_booked": {
+      "yes_pct": 31.6,
+      "no_pct": 7.6,
+      "lift_x": 4.2
+    },
+    "live_resume_used": {
+      "yes_pct": 27.3,
+      "no_pct": 10.9,
+      "lift_x": 2.5
+    },
+    "resume_tool_used": {
+      "yes_pct": 23.4,
+      "no_pct": 8.0,
+      "lift_x": 2.9
+    }
+  },
+  "converter_profile": [
+    {
+      "upgraded": 0,
+      "avg_course_previews": 1.44,
+      "avg_target_co_searches": 2.07,
+      "avg_intent_ratio": 0.168,
+      "avg_logins": 7.9,
+      "avg_content_views": 11.68,
+      "avg_forum_posts": 1.09,
+      "avg_email_open_rate": 0.469,
+      "avg_days_since_active": 10.8
+    },
+    {
+      "upgraded": 1,
+      "avg_course_previews": 3.49,
+      "avg_target_co_searches": 4.73,
+      "avg_intent_ratio": 0.288,
+      "avg_logins": 9.54,
+      "avg_content_views": 14.54,
+      "avg_forum_posts": 1.56,
+      "avg_email_open_rate": 0.613,
+      "avg_days_since_active": 5.6
+    }
+  ],
+  "intent_vs_ambient": {
+    "course_preview_ratio": 2.42,
+    "intent_ratio_ratio": 1.71,
+    "login_ratio": 1.21,
+    "content_view_ratio": 1.24
+  }
+}

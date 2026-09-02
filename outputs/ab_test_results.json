@@ -1,0 +1,13 @@
+{
+  "uniform_conversion_rate": 0.1533,
+  "targeted_conversion_rate": 0.33,
+  "absolute_lift_pp": 17.67,
+  "relative_lift_pct": 115.22,
+  "z_statistic": 5.0543,
+  "p_value": 0.0,
+  "ci_95_low_pp": 10.96,
+  "ci_95_high_pp": 24.37,
+  "budget": 300,
+  "cohort_size": 1000,
+  "significant": true
+}

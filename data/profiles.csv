@@ -1,0 +1,1334 @@
+user_id,profile_source,university_name,school_tier,class_year,major_name,major_cat
+U100595,resume_template_form,Boston College,semi_target,senior,Psychology,other
+U101562,resume_template_form,Harvard University,target,freshman,Finance,finance_econ
+U100291,resume_template_form,University of Nevada,non_target,junior,Computer Science,stem
+U101061,resume_template_form,Emory University,semi_target,junior,Accounting,finance_econ
+U100963,self_completed_profile,UT Austin,semi_target,junior,Psychology,other
+U101065,info_session_registration,Harvard University,target,senior,Communications,other
+U100048,resume_workshop_registration,University of Virginia,semi_target,sophomore,History,other
+U100671,email_capture,Arizona State University,non_target,freshman,Mathematics,stem
+U100327,resume_template_form,Kent State University,non_target,sophomore,Communications,other
+U100406,info_session_registration,University of Kansas,non_target,junior,Computer Science,stem
+U101172,info_session_registration,Harvard University,target,junior,Accounting,finance_econ
+U101150,email_capture,New York University,target,junior,Accounting,finance_econ
+U101120,resume_template_form,University of Virginia,semi_target,senior,Communications,other
+U101886,email_capture,University of Nevada,non_target,junior,Mathematics,stem
+U101601,resume_template_form,Kent State University,non_target,junior,Engineering,stem
+U101742,info_session_registration,Emory University,semi_target,sophomore,Finance,finance_econ
+U100449,email_capture,University of Kansas,non_target,junior,Accounting,finance_econ
+U101841,email_capture,University of Pennsylvania,target,senior,Political Science,other
+U101317,resume_workshop_registration,University of Pennsylvania,target,freshman,History,other
+U101141,email_capture,Emory University,semi_target,freshman,Political Science,other
+U101332,resume_workshop_registration,Temple University,non_target,senior,Statistics,stem
+U100328,resume_template_form,Ohio State University,semi_target,freshman,Finance,finance_econ
+U100916,self_completed_profile,University of Illinois,semi_target,sophomore,History,other
+U101774,email_capture,Harvard University,target,senior,Economics,finance_econ
+U100598,email_capture,Emory University,semi_target,senior,Mathematics,stem
+U100988,resume_template_form,University of Pennsylvania,target,junior,Communications,other
+U101139,resume_template_form,Arizona State University,non_target,junior,History,other
+U100587,email_capture,University of Kansas,non_target,freshman,Accounting,finance_econ
+U101535,resume_template_form,San Diego State,non_target,junior,Communications,other
+U100628,info_session_registration,Temple University,non_target,senior,Political Science,other
+U100204,email_capture,New York University,target,senior,Mathematics,stem
+U101947,resume_template_form,University of Nevada,non_target,junior,Psychology,other
+U101526,resume_template_form,New York University,target,freshman,Economics,finance_econ
+U100576,resume_template_form,University of Nevada,non_target,sophomore,Accounting,finance_econ
+U100123,resume_workshop_registration,University of Michigan,target,freshman,History,other
+U100858,info_session_registration,University of Nevada,non_target,senior,History,other
+U101273,info_session_registration,University of Virginia,semi_target,sophomore,Communications,other
+U101991,resume_template_form,New York University,target,sophomore,Political Science,other
+U100641,resume_template_form,UT Austin,semi_target,sophomore,Psychology,other
+U100663,resume_workshop_registration,University of Kansas,non_target,junior,Mathematics,stem
+U100766,self_completed_profile,Arizona State University,non_target,senior,Psychology,other
+U101117,resume_workshop_registration,UT Austin,semi_target,junior,Economics,finance_econ
+U101127,resume_template_form,University of Kansas,non_target,junior,Communications,other
+U100122,resume_template_form,Temple University,non_target,senior,Accounting,finance_econ
+U101941,resume_template_form,University of Michigan,target,junior,Accounting,finance_econ
+U100609,resume_workshop_registration,University of Illinois,semi_target,junior,Economics,finance_econ
+U100010,email_capture,University of Kansas,non_target,junior,Communications,other
+U100232,resume_template_form,University of Nevada,non_target,freshman,Economics,finance_econ
+U101734,resume_workshop_registration,University of Pennsylvania,target,sophomore,Communications,other
+U100072,email_capture,Temple University,non_target,sophomore,Engineering,stem
+U101059,self_completed_profile,University of Chicago,target,freshman,Communications,other
+U100493,self_completed_profile,University of Kansas,non_target,senior,Economics,finance_econ
+U100265,email_capture,University of Kansas,non_target,sophomore,History,other
+U100180,resume_workshop_registration,Ohio State University,semi_target,junior,Economics,finance_econ
+U101228,info_session_registration,University of Michigan,target,sophomore,Mathematics,stem
+U100348,info_session_registration,UT Austin,semi_target,sophomore,Computer Science,stem
+U101656,info_session_registration,Boston College,semi_target,junior,Economics,finance_econ
+U100947,email_capture,University of Nevada,non_target,senior,Communications,other
+U100653,email_capture,Ohio State University,semi_target,junior,Mathematics,stem
+U100301,info_session_registration,UT Austin,semi_target,sophomore,Accounting,finance_econ
+U100997,resume_workshop_registration,Arizona State University,non_target,junior,Finance,finance_econ
+U101538,self_completed_profile,Emory University,semi_target,junior,Economics,finance_econ
+U100380,info_session_registration,Kent State University,non_target,junior,History,other
+U100285,info_session_registration,Kent State University,non_target,freshman,Statistics,stem
+U101108,email_capture,University of Michigan,target,senior,Economics,finance_econ
+U101430,self_completed_profile,Ohio State University,semi_target,senior,Psychology,other
+U100523,info_session_registration,Temple University,non_target,sophomore,History,other
+U101725,resume_template_form,San Diego State,non_target,freshman,History,other
+U100584,info_session_registration,University of Michigan,target,senior,Mathematics,stem
+U100989,resume_workshop_registration,University of Kansas,non_target,junior,Psychology,other
+U101175,resume_template_form,Ohio State University,semi_target,junior,Economics,finance_econ
+U101465,info_session_registration,Arizona State University,non_target,senior,Finance,finance_econ
+U101717,resume_workshop_registration,Temple University,non_target,senior,Psychology,other
+U101463,info_session_registration,University of Pennsylvania,target,junior,Communications,other
+U100161,resume_template_form,Kent State University,non_target,sophomore,Psychology,other
+U101067,resume_template_form,San Diego State,non_target,senior,History,other
+U101312,email_capture,Boston College,semi_target,junior,History,other
+U101972,resume_template_form,Kent State University,non_target,sophomore,Engineering,stem
+U101665,email_capture,University of Michigan,target,senior,Accounting,finance_econ
+U100290,info_session_registration,Kent State University,non_target,junior,Economics,finance_econ
+U101867,info_session_registration,San Diego State,non_target,freshman,Engineering,stem
+U100170,resume_template_form,University of Illinois,semi_target,senior,Computer Science,stem
+U100214,resume_template_form,University of Illinois,semi_target,freshman,Engineering,stem
+U100166,self_completed_profile,Harvard University,target,senior,History,other
+U100993,resume_workshop_registration,University of Virginia,semi_target,senior,Psychology,other
+U100473,info_session_registration,Harvard University,target,junior,Engineering,stem
+U100898,email_capture,Emory University,semi_target,senior,Psychology,other
+U101898,email_capture,Arizona State University,non_target,senior,Psychology,other
+U101320,resume_template_form,University of Nevada,non_target,freshman,Economics,finance_econ
+U100027,email_capture,San Diego State,non_target,freshman,Computer Science,stem
+U100818,resume_workshop_registration,Harvard University,target,junior,Statistics,stem
+U100033,resume_template_form,Kent State University,non_target,junior,Accounting,finance_econ
+U100369,resume_template_form,University of Pennsylvania,target,sophomore,Communications,other
+U101552,info_session_registration,University of Michigan,target,sophomore,Finance,finance_econ
+U100041,resume_template_form,Kent State University,non_target,sophomore,Finance,finance_econ
+U100574,info_session_registration,University of Illinois,semi_target,sophomore,Mathematics,stem
+U101472,resume_template_form,Ohio State University,semi_target,junior,Mathematics,stem
+U101793,resume_template_form,Ohio State University,semi_target,senior,Economics,finance_econ
+U100730,resume_template_form,University of Chicago,target,junior,Communications,other
+U101627,resume_workshop_registration,UT Austin,semi_target,junior,Finance,finance_econ
+U100924,resume_template_form,New York University,target,junior,Computer Science,stem
+U101528,info_session_registration,Temple University,non_target,junior,Political Science,other
+U100503,info_session_registration,San Diego State,non_target,junior,Accounting,finance_econ
+U101614,resume_workshop_registration,University of Virginia,semi_target,senior,Statistics,stem
+U100198,info_session_registration,Arizona State University,non_target,junior,Political Science,other
+U100044,resume_template_form,University of Pennsylvania,target,junior,Engineering,stem
+U101890,self_completed_profile,Temple University,non_target,sophomore,History,other
+U101314,resume_template_form,Harvard University,target,sophomore,Psychology,other
+U100009,resume_template_form,University of Virginia,semi_target,sophomore,Communications,other
+U101827,email_capture,University of Chicago,target,junior,Economics,finance_econ
+U100536,info_session_registration,University of Illinois,semi_target,junior,Communications,other
+U100953,info_session_registration,UT Austin,semi_target,junior,Communications,other
+U101080,resume_template_form,Ohio State University,semi_target,junior,Statistics,stem
+U101548,email_capture,Temple University,non_target,junior,Finance,finance_econ
+U100581,info_session_registration,San Diego State,non_target,senior,Communications,other
+U101982,info_session_registration,Kent State University,non_target,junior,Finance,finance_econ
+U100382,info_session_registration,San Diego State,non_target,sophomore,Finance,finance_econ
+U100797,info_session_registration,University of Virginia,semi_target,sophomore,Computer Science,stem
+U100823,resume_workshop_registration,University of Pennsylvania,target,junior,Finance,finance_econ
+U101652,resume_template_form,Kent State University,non_target,sophomore,Engineering,stem
+U100277,email_capture,University of Illinois,semi_target,freshman,Finance,finance_econ
+U100711,resume_template_form,University of Kansas,non_target,junior,Political Science,other
+U100288,resume_template_form,Emory University,semi_target,junior,Computer Science,stem
+U101789,resume_template_form,Ohio State University,semi_target,sophomore,Statistics,stem
+U101812,resume_template_form,University of Kansas,non_target,sophomore,Mathematics,stem
+U101579,email_capture,UT Austin,semi_target,junior,Engineering,stem
+U101021,resume_template_form,UT Austin,semi_target,junior,History,other
+U101667,resume_template_form,Arizona State University,non_target,freshman,Finance,finance_econ
+U100828,self_completed_profile,New York University,target,junior,Computer Science,stem
+U101442,resume_workshop_registration,University of Illinois,semi_target,junior,Economics,finance_econ
+U100440,info_session_registration,University of Michigan,target,senior,Economics,finance_econ
+U100100,resume_template_form,Ohio State University,semi_target,senior,Psychology,other
+U100025,email_capture,Temple University,non_target,junior,Computer Science,stem
+U100476,resume_workshop_registration,Kent State University,non_target,freshman,Political Science,other
+U101425,resume_workshop_registration,University of Illinois,semi_target,junior,Finance,finance_econ
+U101079,resume_workshop_registration,University of Illinois,semi_target,junior,Finance,finance_econ
+U101078,info_session_registration,Ohio State University,semi_target,junior,Computer Science,stem
+U101796,resume_template_form,San Diego State,non_target,sophomore,Accounting,finance_econ
+U100313,resume_workshop_registration,Boston College,semi_target,junior,Communications,other
+U100243,resume_workshop_registration,Ohio State University,semi_target,senior,Statistics,stem
+U101769,resume_workshop_registration,University of Illinois,semi_target,junior,Engineering,stem
+U100418,resume_template_form,University of Virginia,semi_target,freshman,Finance,finance_econ
+U101911,email_capture,University of Kansas,non_target,sophomore,Statistics,stem
+U101137,info_session_registration,Boston College,semi_target,sophomore,Engineering,stem
+U101746,email_capture,Ohio State University,semi_target,sophomore,Statistics,stem
+U100340,self_completed_profile,University of Kansas,non_target,freshman,Psychology,other
+U101488,self_completed_profile,University of Illinois,semi_target,senior,History,other
+U100951,info_session_registration,University of Michigan,target,senior,Accounting,finance_econ
+U100632,self_completed_profile,New York University,target,freshman,Political Science,other
+U101660,resume_workshop_registration,University of Michigan,target,junior,Statistics,stem
+U100168,resume_template_form,University of Virginia,semi_target,junior,Mathematics,stem
+U101605,resume_template_form,University of Pennsylvania,target,sophomore,Economics,finance_econ
+U101237,self_completed_profile,UT Austin,semi_target,freshman,Mathematics,stem
+U100061,self_completed_profile,New York University,target,sophomore,Economics,finance_econ
+U100518,resume_workshop_registration,UT Austin,semi_target,junior,Mathematics,stem
+U100175,resume_workshop_registration,Boston College,semi_target,junior,Computer Science,stem
+U100385,resume_workshop_registration,Boston College,semi_target,junior,Psychology,other
+U101266,resume_template_form,Boston College,semi_target,junior,History,other
+U100707,info_session_registration,UT Austin,semi_target,senior,Accounting,finance_econ
+U100786,resume_template_form,Ohio State University,semi_target,junior,History,other
+U101255,resume_workshop_registration,University of Kansas,non_target,senior,Finance,finance_econ
+U101501,self_completed_profile,University of Pennsylvania,target,freshman,Economics,finance_econ
+U101207,resume_template_form,University of Pennsylvania,target,junior,Computer Science,stem
+U101335,self_completed_profile,Harvard University,target,sophomore,Finance,finance_econ
+U100918,info_session_registration,University of Kansas,non_target,junior,Psychology,other
+U100274,resume_workshop_registration,University of Virginia,semi_target,junior,Psychology,other
+U101105,resume_template_form,University of Virginia,semi_target,freshman,Computer Science,stem
+U101893,email_capture,University of Kansas,non_target,sophomore,Computer Science,stem
+U100851,resume_template_form,Arizona State University,non_target,junior,Political Science,other
+U100946,email_capture,San Diego State,non_target,sophomore,Communications,other
+U101210,self_completed_profile,University of Kansas,non_target,junior,Psychology,other
+U101167,resume_template_form,Ohio State University,semi_target,senior,Accounting,finance_econ
+U100011,resume_template_form,University of Michigan,target,sophomore,Communications,other
+U100147,email_capture,Arizona State University,non_target,freshman,Political Science,other
+U101522,email_capture,University of Nevada,non_target,junior,Economics,finance_econ
+U100827,info_session_registration,University of Chicago,target,junior,Communications,other
+U101134,resume_workshop_registration,Emory University,semi_target,junior,Political Science,other
+U101388,self_completed_profile,Cornell University,target,junior,Economics,finance_econ
+U100451,resume_workshop_registration,Arizona State University,non_target,sophomore,Economics,finance_econ
+U101664,email_capture,Harvard University,target,junior,History,other
+U100425,self_completed_profile,Temple University,non_target,junior,Psychology,other
+U100256,resume_template_form,Harvard University,target,junior,Mathematics,stem
+U101019,resume_template_form,University of Nevada,non_target,junior,Political Science,other
+U100401,resume_workshop_registration,University of Virginia,semi_target,sophomore,Computer Science,stem
+U100078,resume_template_form,UT Austin,semi_target,senior,Mathematics,stem
+U101858,email_capture,University of Pennsylvania,target,freshman,Statistics,stem
+U100563,resume_workshop_registration,University of Chicago,target,freshman,Accounting,finance_econ
+U101794,resume_workshop_registration,University of Virginia,semi_target,junior,Finance,finance_econ
+U101075,resume_template_form,Temple University,non_target,freshman,Communications,other
+U100167,email_capture,Arizona State University,non_target,freshman,Psychology,other
+U100002,resume_template_form,University of Chicago,target,senior,Economics,finance_econ
+U100866,resume_workshop_registration,University of Illinois,semi_target,sophomore,History,other
+U101032,email_capture,Temple University,non_target,senior,Political Science,other
+U100124,resume_template_form,Ohio State University,semi_target,junior,Finance,finance_econ
+U101433,resume_template_form,Temple University,non_target,senior,Engineering,stem
+U101417,resume_template_form,University of Nevada,non_target,sophomore,History,other
+U100959,resume_template_form,Temple University,non_target,junior,Political Science,other
+U100666,info_session_registration,University of Pennsylvania,target,junior,Economics,finance_econ
+U100379,email_capture,Boston College,semi_target,junior,History,other
+U101036,resume_template_form,Temple University,non_target,freshman,Communications,other
+U101444,email_capture,Harvard University,target,freshman,Engineering,stem
+U100332,self_completed_profile,University of Illinois,semi_target,junior,History,other
+U101267,email_capture,Cornell University,target,junior,History,other
+U101328,resume_template_form,San Diego State,non_target,junior,Accounting,finance_econ
+U100691,self_completed_profile,Temple University,non_target,sophomore,Communications,other
+U101523,resume_template_form,Arizona State University,non_target,senior,Engineering,stem
+U100206,self_completed_profile,Harvard University,target,junior,Political Science,other
+U101852,resume_template_form,Ohio State University,semi_target,freshman,Statistics,stem
+U101187,email_capture,University of Nevada,non_target,sophomore,Accounting,finance_econ
+U101018,email_capture,University of Nevada,non_target,freshman,Political Science,other
+U100631,email_capture,Temple University,non_target,sophomore,Computer Science,stem
+U100489,info_session_registration,University of Virginia,semi_target,junior,Political Science,other
+U100871,info_session_registration,Emory University,semi_target,senior,Statistics,stem
+U101655,resume_workshop_registration,University of Virginia,semi_target,freshman,Political Science,other
+U100024,resume_workshop_registration,University of Pennsylvania,target,junior,Computer Science,stem
+U101532,self_completed_profile,University of Kansas,non_target,junior,Computer Science,stem
+U100881,resume_workshop_registration,University of Nevada,non_target,junior,Finance,finance_econ
+U100141,email_capture,University of Michigan,target,senior,Engineering,stem
+U100140,resume_template_form,UT Austin,semi_target,junior,Engineering,stem
+U101628,email_capture,University of Illinois,semi_target,junior,Computer Science,stem
+U101908,resume_template_form,New York University,target,junior,Accounting,finance_econ
+U101217,resume_workshop_registration,Arizona State University,non_target,sophomore,Mathematics,stem
+U100787,email_capture,Cornell University,target,sophomore,Political Science,other
+U102000,info_session_registration,UT Austin,semi_target,junior,Statistics,stem
+U100346,resume_template_form,Harvard University,target,sophomore,Accounting,finance_econ
+U100446,resume_template_form,University of Virginia,semi_target,junior,Psychology,other
+U101880,resume_template_form,Emory University,semi_target,junior,Engineering,stem
+U101920,email_capture,Kent State University,non_target,junior,Political Science,other
+U100096,resume_workshop_registration,Ohio State University,semi_target,senior,Political Science,other
+U101439,info_session_registration,University of Virginia,semi_target,senior,Political Science,other
+U100608,resume_template_form,UT Austin,semi_target,junior,Statistics,stem
+U101004,email_capture,University of Michigan,target,junior,Computer Science,stem
+U100453,self_completed_profile,Kent State University,non_target,sophomore,Mathematics,stem
+U101850,resume_template_form,Temple University,non_target,sophomore,Psychology,other
+U100625,info_session_registration,UT Austin,semi_target,junior,Economics,finance_econ
+U100294,resume_template_form,San Diego State,non_target,sophomore,Psychology,other
+U100037,self_completed_profile,Emory University,semi_target,senior,History,other
+U100941,email_capture,San Diego State,non_target,senior,Communications,other
+U100770,email_capture,Ohio State University,semi_target,freshman,Computer Science,stem
+U101163,info_session_registration,University of Illinois,semi_target,junior,Accounting,finance_econ
+U100714,email_capture,Emory University,semi_target,senior,Accounting,finance_econ
+U101681,info_session_registration,Ohio State University,semi_target,senior,Finance,finance_econ
+U100971,email_capture,Harvard University,target,sophomore,Accounting,finance_econ
+U100494,resume_workshop_registration,Cornell University,target,junior,Communications,other
+U100237,resume_template_form,New York University,target,freshman,Statistics,stem
+U100394,email_capture,University of Pennsylvania,target,freshman,History,other
+U100541,self_completed_profile,Arizona State University,non_target,junior,Economics,finance_econ
+U100673,info_session_registration,University of Illinois,semi_target,senior,Mathematics,stem
+U100985,resume_template_form,Emory University,semi_target,freshman,Political Science,other
+U100219,resume_template_form,University of Pennsylvania,target,freshman,Political Science,other
+U100913,resume_template_form,Kent State University,non_target,senior,Statistics,stem
+U101716,info_session_registration,Temple University,non_target,sophomore,Statistics,stem
+U101091,email_capture,University of Kansas,non_target,junior,Finance,finance_econ
+U100225,resume_template_form,UT Austin,semi_target,freshman,Psychology,other
+U101820,info_session_registration,Temple University,non_target,senior,History,other
+U101278,resume_template_form,Boston College,semi_target,junior,Communications,other
+U100999,self_completed_profile,UT Austin,semi_target,sophomore,Computer Science,stem
+U100414,info_session_registration,New York University,target,freshman,Accounting,finance_econ
+U100459,resume_workshop_registration,University of Nevada,non_target,freshman,Economics,finance_econ
+U101916,resume_workshop_registration,University of Illinois,semi_target,freshman,Computer Science,stem
+U101642,resume_template_form,University of Chicago,target,junior,Statistics,stem
+U101362,self_completed_profile,University of Kansas,non_target,sophomore,Mathematics,stem
+U100094,email_capture,University of Virginia,semi_target,sophomore,Communications,other
+U101263,info_session_registration,Emory University,semi_target,senior,Communications,other
+U101440,resume_template_form,Kent State University,non_target,senior,Economics,finance_econ
+U101082,resume_template_form,Kent State University,non_target,junior,Economics,finance_econ
+U100791,info_session_registration,UT Austin,semi_target,sophomore,Statistics,stem
+U101234,info_session_registration,San Diego State,non_target,sophomore,Political Science,other
+U100354,email_capture,UT Austin,semi_target,junior,Finance,finance_econ
+U101076,info_session_registration,University of Chicago,target,junior,Statistics,stem
+U100931,resume_template_form,Arizona State University,non_target,sophomore,Political Science,other
+U101294,resume_template_form,Cornell University,target,junior,Statistics,stem
+U100925,info_session_registration,Kent State University,non_target,senior,Communications,other
+U100832,resume_template_form,Emory University,semi_target,senior,Mathematics,stem
+U100530,info_session_registration,University of Illinois,semi_target,junior,Finance,finance_econ
+U101159,email_capture,Harvard University,target,senior,Economics,finance_econ
+U101733,resume_template_form,New York University,target,sophomore,Statistics,stem
+U100889,resume_workshop_registration,University of Virginia,semi_target,sophomore,Political Science,other
+U100973,email_capture,University of Kansas,non_target,senior,Computer Science,stem
+U101832,info_session_registration,University of Pennsylvania,target,senior,Accounting,finance_econ
+U100433,info_session_registration,University of Nevada,non_target,junior,Statistics,stem
+U101512,resume_template_form,University of Virginia,semi_target,freshman,History,other
+U100683,self_completed_profile,UT Austin,semi_target,junior,Statistics,stem
+U102001,resume_template_form,UT Austin,semi_target,junior,Finance,finance_econ
+U100358,email_capture,University of Kansas,non_target,freshman,History,other
+U101736,resume_template_form,Arizona State University,non_target,junior,Psychology,other
+U100715,resume_workshop_registration,Emory University,semi_target,junior,Psychology,other
+U101949,resume_template_form,San Diego State,non_target,senior,Accounting,finance_econ
+U100634,resume_workshop_registration,University of Nevada,non_target,junior,Political Science,other
+U100604,resume_template_form,Temple University,non_target,junior,Communications,other
+U100035,email_capture,Harvard University,target,senior,Finance,finance_econ
+U100991,resume_template_form,University of Virginia,semi_target,junior,Computer Science,stem
+U100875,self_completed_profile,University of Chicago,target,junior,Mathematics,stem
+U101232,email_capture,Emory University,semi_target,junior,Mathematics,stem
+U100471,info_session_registration,San Diego State,non_target,junior,Economics,finance_econ
+U101948,resume_template_form,University of Illinois,semi_target,junior,Mathematics,stem
+U102004,self_completed_profile,University of Nevada,non_target,freshman,Communications,other
+U101873,resume_template_form,Emory University,semi_target,freshman,Economics,finance_econ
+U100032,email_capture,University of Chicago,target,senior,Computer Science,stem
+U101902,resume_template_form,Harvard University,target,senior,Psychology,other
+U100071,email_capture,Kent State University,non_target,senior,Accounting,finance_econ
+U101246,resume_template_form,Emory University,semi_target,freshman,Economics,finance_econ
+U101511,resume_workshop_registration,Temple University,non_target,freshman,Economics,finance_econ
+U101790,resume_template_form,University of Virginia,semi_target,senior,Statistics,stem
+U100091,resume_workshop_registration,Emory University,semi_target,freshman,History,other
+U100064,self_completed_profile,Boston College,semi_target,junior,Psychology,other
+U101550,info_session_registration,Ohio State University,semi_target,junior,Statistics,stem
+U101885,email_capture,University of Nevada,non_target,senior,Political Science,other
+U101042,resume_template_form,Emory University,semi_target,senior,Computer Science,stem
+U101165,resume_template_form,New York University,target,senior,Communications,other
+U100734,info_session_registration,Ohio State University,semi_target,sophomore,Communications,other
+U100335,resume_workshop_registration,New York University,target,freshman,Mathematics,stem
+U100724,email_capture,University of Nevada,non_target,sophomore,Accounting,finance_econ
+U100596,email_capture,Emory University,semi_target,freshman,Psychology,other
+U100272,resume_workshop_registration,Cornell University,target,junior,Finance,finance_econ
+U100756,info_session_registration,University of Michigan,target,junior,Computer Science,stem
+U100116,resume_template_form,UT Austin,semi_target,freshman,History,other
+U101825,email_capture,Ohio State University,semi_target,freshman,Computer Science,stem
+U101194,resume_template_form,Harvard University,target,freshman,Political Science,other
+U101485,self_completed_profile,University of Chicago,target,junior,Engineering,stem
+U100350,resume_template_form,Harvard University,target,freshman,Accounting,finance_econ
+U101626,resume_template_form,Kent State University,non_target,senior,History,other
+U101857,email_capture,Cornell University,target,senior,Computer Science,stem
+U100176,resume_workshop_registration,San Diego State,non_target,junior,History,other
+U101843,resume_workshop_registration,UT Austin,semi_target,freshman,Accounting,finance_econ
+U101236,resume_template_form,Emory University,semi_target,senior,Communications,other
+U100112,info_session_registration,University of Nevada,non_target,sophomore,Finance,finance_econ
+U100995,info_session_registration,University of Pennsylvania,target,junior,Finance,finance_econ
+U101230,resume_template_form,Boston College,semi_target,junior,History,other
+U100778,resume_template_form,New York University,target,junior,Engineering,stem
+U101866,info_session_registration,New York University,target,freshman,Finance,finance_econ
+U101524,self_completed_profile,University of Michigan,target,senior,Communications,other
+U101074,resume_workshop_registration,Cornell University,target,junior,Accounting,finance_econ
+U101515,info_session_registration,Emory University,semi_target,senior,Finance,finance_econ
+U100415,self_completed_profile,Arizona State University,non_target,freshman,Engineering,stem
+U100234,resume_workshop_registration,University of Michigan,target,senior,Finance,finance_econ
+U100914,resume_template_form,University of Kansas,non_target,junior,Economics,finance_econ
+U100670,email_capture,University of Nevada,non_target,senior,Communications,other
+U101341,info_session_registration,Cornell University,target,sophomore,Finance,finance_econ
+U100298,resume_workshop_registration,University of Chicago,target,senior,Political Science,other
+U101364,resume_workshop_registration,University of Nevada,non_target,senior,Finance,finance_econ
+U100780,info_session_registration,Cornell University,target,freshman,Communications,other
+U101443,resume_template_form,University of Pennsylvania,target,freshman,Accounting,finance_econ
+U100306,resume_template_form,San Diego State,non_target,junior,Communications,other
+U100657,email_capture,University of Michigan,target,junior,Accounting,finance_econ
+U101279,email_capture,Ohio State University,semi_target,junior,Psychology,other
+U101651,self_completed_profile,University of Virginia,semi_target,senior,Finance,finance_econ
+U101888,resume_template_form,University of Kansas,non_target,sophomore,Computer Science,stem
+U101630,email_capture,Temple University,non_target,junior,Communications,other
+U100687,resume_template_form,University of Michigan,target,sophomore,Computer Science,stem
+U101727,resume_template_form,Boston College,semi_target,senior,Psychology,other
+U101199,email_capture,University of Kansas,non_target,freshman,Political Science,other
+U101743,resume_template_form,University of Michigan,target,sophomore,History,other
+U101429,resume_template_form,Kent State University,non_target,senior,Political Science,other
+U100036,resume_workshop_registration,Emory University,semi_target,sophomore,Economics,finance_econ
+U100165,resume_workshop_registration,UT Austin,semi_target,freshman,Finance,finance_econ
+U100930,resume_template_form,Emory University,semi_target,senior,Communications,other
+U100979,email_capture,Kent State University,non_target,sophomore,Accounting,finance_econ
+U100962,email_capture,University of Chicago,target,junior,Accounting,finance_econ
+U101039,email_capture,UT Austin,semi_target,sophomore,Accounting,finance_econ
+U100357,email_capture,University of Kansas,non_target,junior,Computer Science,stem
+U100148,info_session_registration,UT Austin,semi_target,senior,Computer Science,stem
+U101986,resume_template_form,University of Illinois,semi_target,senior,Psychology,other
+U100330,email_capture,UT Austin,semi_target,freshman,Communications,other
+U101205,info_session_registration,UT Austin,semi_target,senior,Statistics,stem
+U101782,resume_template_form,University of Kansas,non_target,junior,Mathematics,stem
+U101921,email_capture,Harvard University,target,sophomore,Computer Science,stem
+U101041,info_session_registration,Temple University,non_target,sophomore,Psychology,other
+U100018,info_session_registration,Cornell University,target,junior,Engineering,stem
+U101192,info_session_registration,University of Michigan,target,senior,Mathematics,stem
+U101958,resume_template_form,Kent State University,non_target,sophomore,Engineering,stem
+U100736,info_session_registration,University of Chicago,target,sophomore,Mathematics,stem
+U100659,resume_template_form,Emory University,semi_target,junior,Statistics,stem
+U101680,resume_workshop_registration,Ohio State University,semi_target,junior,Statistics,stem
+U100458,info_session_registration,University of Virginia,semi_target,freshman,Engineering,stem
+U101154,email_capture,Arizona State University,non_target,senior,Engineering,stem
+U101521,resume_template_form,University of Virginia,semi_target,freshman,Engineering,stem
+U101927,info_session_registration,University of Illinois,semi_target,junior,Accounting,finance_econ
+U100856,resume_template_form,Boston College,semi_target,freshman,Finance,finance_econ
+U101185,email_capture,University of Chicago,target,senior,Mathematics,stem
+U101334,email_capture,University of Nevada,non_target,senior,Economics,finance_econ
+U101495,resume_template_form,University of Pennsylvania,target,junior,Accounting,finance_econ
+U100121,info_session_registration,Arizona State University,non_target,sophomore,Mathematics,stem
+U100127,resume_workshop_registration,University of Illinois,semi_target,senior,Accounting,finance_econ
+U101455,resume_template_form,Ohio State University,semi_target,freshman,History,other
+U101616,self_completed_profile,Boston College,semi_target,senior,Economics,finance_econ
+U100667,resume_template_form,University of Kansas,non_target,junior,History,other
+U101833,resume_template_form,New York University,target,senior,Political Science,other
+U100958,resume_template_form,University of Michigan,target,sophomore,Economics,finance_econ
+U100212,resume_template_form,Temple University,non_target,senior,Psychology,other
+U100179,info_session_registration,University of Illinois,semi_target,sophomore,Political Science,other
+U101347,email_capture,Cornell University,target,sophomore,Communications,other
+U100950,info_session_registration,University of Virginia,semi_target,senior,Economics,finance_econ
+U101101,resume_template_form,University of Michigan,target,senior,Engineering,stem
+U101462,email_capture,University of Michigan,target,senior,Economics,finance_econ
+U100618,self_completed_profile,Cornell University,target,senior,Accounting,finance_econ
+U100664,info_session_registration,San Diego State,non_target,junior,Statistics,stem
+U100790,email_capture,Emory University,semi_target,freshman,Statistics,stem
+U100877,resume_workshop_registration,University of Illinois,semi_target,junior,Psychology,other
+U101353,info_session_registration,Temple University,non_target,freshman,Finance,finance_econ
+U101048,resume_template_form,University of Michigan,target,junior,Accounting,finance_econ
+U100413,resume_template_form,Harvard University,target,junior,Accounting,finance_econ
+U101928,resume_workshop_registration,Ohio State University,semi_target,junior,Political Science,other
+U101268,email_capture,Temple University,non_target,junior,Computer Science,stem
+U100457,resume_template_form,Ohio State University,semi_target,sophomore,Economics,finance_econ
+U100591,self_completed_profile,University of Nevada,non_target,junior,Political Science,other
+U101807,email_capture,University of Nevada,non_target,sophomore,Computer Science,stem
+U101860,resume_workshop_registration,Boston College,semi_target,sophomore,Economics,finance_econ
+U101340,email_capture,University of Chicago,target,senior,Accounting,finance_econ
+U101071,info_session_registration,Kent State University,non_target,senior,Computer Science,stem
+U101836,resume_workshop_registration,Boston College,semi_target,freshman,Economics,finance_econ
+U100767,info_session_registration,University of Illinois,semi_target,senior,Economics,finance_econ
+U101849,self_completed_profile,UT Austin,semi_target,junior,History,other
+U101541,resume_template_form,University of Chicago,target,junior,Psychology,other
+U101748,email_capture,University of Virginia,semi_target,junior,Political Science,other
+U100814,resume_template_form,Ohio State University,semi_target,senior,Finance,finance_econ
+U101821,info_session_registration,Temple University,non_target,freshman,Finance,finance_econ
+U101751,resume_template_form,UT Austin,semi_target,senior,Accounting,finance_econ
+U100566,resume_template_form,University of Nevada,non_target,senior,Accounting,finance_econ
+U100334,resume_template_form,Harvard University,target,freshman,Accounting,finance_econ
+U102008,info_session_registration,Ohio State University,semi_target,junior,Engineering,stem
+U100447,resume_template_form,University of Michigan,target,sophomore,Computer Science,stem
+U100726,resume_template_form,Emory University,semi_target,junior,History,other
+U100992,resume_workshop_registration,San Diego State,non_target,sophomore,Statistics,stem
+U100028,self_completed_profile,Ohio State University,semi_target,senior,Communications,other
+U101405,resume_workshop_registration,San Diego State,non_target,senior,Computer Science,stem
+U100117,self_completed_profile,UT Austin,semi_target,senior,Psychology,other
+U101024,resume_template_form,Harvard University,target,sophomore,Engineering,stem
+U100242,resume_workshop_registration,Boston College,semi_target,junior,History,other
+U100551,resume_template_form,University of Chicago,target,sophomore,Accounting,finance_econ
+U100843,email_capture,University of Michigan,target,junior,Economics,finance_econ
+U100688,resume_template_form,Harvard University,target,junior,Mathematics,stem
+U101360,resume_workshop_registration,University of Kansas,non_target,senior,Communications,other
+U101999,resume_template_form,University of Chicago,target,senior,Psychology,other
+U101799,resume_template_form,San Diego State,non_target,senior,Political Science,other
+U101184,resume_template_form,Ohio State University,semi_target,freshman,Communications,other
+U101448,self_completed_profile,University of Virginia,semi_target,freshman,Psychology,other
+U100211,info_session_registration,Harvard University,target,senior,Economics,finance_econ
+U100178,info_session_registration,University of Illinois,semi_target,sophomore,History,other
+U101741,email_capture,University of Virginia,semi_target,freshman,History,other
+U101189,resume_template_form,Ohio State University,semi_target,sophomore,Computer Science,stem
+U100427,email_capture,University of Nevada,non_target,senior,Mathematics,stem
+U100572,resume_workshop_registration,Ohio State University,semi_target,junior,Economics,finance_econ
+U100939,email_capture,University of Michigan,target,senior,Accounting,finance_econ
+U101990,email_capture,University of Nevada,non_target,senior,Computer Science,stem
+U101897,info_session_registration,University of Kansas,non_target,senior,Mathematics,stem
+U101229,email_capture,University of Nevada,non_target,junior,Mathematics,stem
+U100386,resume_workshop_registration,University of Pennsylvania,target,junior,Economics,finance_econ
+U101684,self_completed_profile,Temple University,non_target,freshman,Communications,other
+U101221,self_completed_profile,Harvard University,target,senior,Finance,finance_econ
+U100855,info_session_registration,University of Kansas,non_target,senior,Communications,other
+U100527,self_completed_profile,Boston College,semi_target,senior,Communications,other
+U101603,resume_template_form,Ohio State University,semi_target,junior,Economics,finance_econ
+U100342,info_session_registration,Kent State University,non_target,senior,Computer Science,stem
+U100209,resume_workshop_registration,Temple University,non_target,junior,Finance,finance_econ
+U100920,resume_workshop_registration,University of Virginia,semi_target,junior,History,other
+U100284,resume_template_form,Arizona State University,non_target,sophomore,Psychology,other
+U101726,resume_template_form,Emory University,semi_target,junior,History,other
+U100857,resume_template_form,Boston College,semi_target,senior,Statistics,stem
+U101590,resume_workshop_registration,University of Illinois,semi_target,sophomore,Engineering,stem
+U101466,resume_template_form,University of Nevada,non_target,junior,Engineering,stem
+U100029,self_completed_profile,University of Pennsylvania,target,senior,Economics,finance_econ
+U101831,info_session_registration,University of Virginia,semi_target,sophomore,Psychology,other
+U100725,email_capture,University of Nevada,non_target,sophomore,Psychology,other
+U101001,resume_template_form,Emory University,semi_target,junior,Mathematics,stem
+U100681,self_completed_profile,University of Virginia,semi_target,sophomore,Economics,finance_econ
+U100933,resume_template_form,New York University,target,senior,Economics,finance_econ
+U100287,email_capture,University of Kansas,non_target,freshman,Psychology,other
+U101435,resume_template_form,Emory University,semi_target,freshman,Mathematics,stem
+U101152,info_session_registration,University of Kansas,non_target,junior,Communications,other
+U101308,info_session_registration,University of Chicago,target,freshman,Psychology,other
+U101056,resume_workshop_registration,UT Austin,semi_target,senior,Mathematics,stem
+U101303,self_completed_profile,University of Pennsylvania,target,senior,Economics,finance_econ
+U101180,resume_workshop_registration,Cornell University,target,sophomore,Mathematics,stem
+U100537,resume_template_form,Harvard University,target,sophomore,Accounting,finance_econ
+U100383,resume_workshop_registration,University of Michigan,target,senior,Accounting,finance_econ
+U100311,info_session_registration,University of Pennsylvania,target,freshman,Political Science,other
+U100149,resume_template_form,University of Virginia,semi_target,junior,Statistics,stem
+U100678,email_capture,University of Virginia,semi_target,senior,Mathematics,stem
+U101227,resume_template_form,Kent State University,non_target,senior,Computer Science,stem
+U100783,resume_template_form,University of Nevada,non_target,junior,Psychology,other
+U101553,resume_template_form,San Diego State,non_target,freshman,Political Science,other
+U100895,resume_workshop_registration,Kent State University,non_target,sophomore,Psychology,other
+U101694,email_capture,Ohio State University,semi_target,freshman,Economics,finance_econ
+U100980,email_capture,Emory University,semi_target,freshman,Political Science,other
+U100177,resume_workshop_registration,Emory University,semi_target,senior,Psychology,other
+U100994,self_completed_profile,University of Nevada,non_target,junior,Communications,other
+U100087,email_capture,University of Illinois,semi_target,freshman,Political Science,other
+U101634,self_completed_profile,University of Kansas,non_target,freshman,History,other
+U100638,resume_workshop_registration,University of Illinois,semi_target,sophomore,Economics,finance_econ
+U100822,resume_template_form,Cornell University,target,junior,Political Science,other
+U100922,info_session_registration,Temple University,non_target,senior,Communications,other
+U100583,email_capture,Harvard University,target,junior,Mathematics,stem
+U100614,info_session_registration,Temple University,non_target,junior,Engineering,stem
+U100437,info_session_registration,Cornell University,target,sophomore,Political Science,other
+U100463,email_capture,Arizona State University,non_target,senior,Accounting,finance_econ
+U100970,resume_template_form,University of Virginia,semi_target,junior,Statistics,stem
+U100085,resume_template_form,Emory University,semi_target,freshman,Economics,finance_econ
+U101761,resume_template_form,University of Illinois,semi_target,freshman,Psychology,other
+U100485,info_session_registration,University of Chicago,target,junior,Engineering,stem
+U101543,resume_template_form,University of Virginia,semi_target,junior,Statistics,stem
+U101164,self_completed_profile,Ohio State University,semi_target,sophomore,Economics,finance_econ
+U100590,info_session_registration,Kent State University,non_target,sophomore,Statistics,stem
+U100529,email_capture,Temple University,non_target,senior,Accounting,finance_econ
+U100759,email_capture,Kent State University,non_target,junior,Accounting,finance_econ
+U100240,resume_workshop_registration,Boston College,semi_target,junior,Communications,other
+U101344,info_session_registration,Kent State University,non_target,senior,Computer Science,stem
+U101260,resume_template_form,University of Chicago,target,sophomore,Finance,finance_econ
+U101993,resume_template_form,University of Michigan,target,senior,Computer Science,stem
+U100491,resume_template_form,University of Virginia,semi_target,senior,Psychology,other
+U101072,info_session_registration,Temple University,non_target,freshman,Political Science,other
+U101370,resume_workshop_registration,Harvard University,target,junior,Communications,other
+U101995,email_capture,Ohio State University,semi_target,freshman,Computer Science,stem
+U101872,email_capture,Kent State University,non_target,sophomore,Mathematics,stem
+U100108,info_session_registration,Ohio State University,semi_target,junior,Economics,finance_econ
+U100031,self_completed_profile,Emory University,semi_target,sophomore,Communications,other
+U101054,resume_workshop_registration,UT Austin,semi_target,junior,Political Science,other
+U101745,resume_template_form,Arizona State University,non_target,sophomore,Accounting,finance_econ
+U100111,resume_template_form,University of Nevada,non_target,senior,Computer Science,stem
+U100400,email_capture,New York University,target,junior,Economics,finance_econ
+U100077,email_capture,Cornell University,target,junior,Accounting,finance_econ
+U101855,resume_template_form,San Diego State,non_target,senior,History,other
+U101792,email_capture,Harvard University,target,junior,Economics,finance_econ
+U101058,info_session_registration,University of Illinois,semi_target,senior,Economics,finance_econ
+U101084,info_session_registration,Harvard University,target,sophomore,Mathematics,stem
+U100399,email_capture,Kent State University,non_target,senior,History,other
+U100300,resume_template_form,Harvard University,target,junior,Economics,finance_econ
+U101358,info_session_registration,Boston College,semi_target,sophomore,Accounting,finance_econ
+U101262,info_session_registration,University of Illinois,semi_target,sophomore,Psychology,other
+U100450,info_session_registration,University of Nevada,non_target,sophomore,Engineering,stem
+U100845,info_session_registration,Boston College,semi_target,freshman,Psychology,other
+U101983,resume_workshop_registration,University of Pennsylvania,target,junior,Economics,finance_econ
+U101758,email_capture,University of Pennsylvania,target,sophomore,Accounting,finance_econ
+U100562,email_capture,Arizona State University,non_target,freshman,Psychology,other
+U101200,resume_template_form,University of Virginia,semi_target,junior,Accounting,finance_econ
+U101453,resume_template_form,University of Illinois,semi_target,junior,Accounting,finance_econ
+U100990,resume_workshop_registration,University of Pennsylvania,target,sophomore,Communications,other
+U100093,resume_template_form,University of Michigan,target,junior,Economics,finance_econ
+U101645,resume_template_form,University of Michigan,target,sophomore,Engineering,stem
+U101012,resume_template_form,University of Illinois,semi_target,sophomore,Accounting,finance_econ
+U101593,resume_workshop_registration,Boston College,semi_target,freshman,Economics,finance_econ
+U101378,resume_workshop_registration,San Diego State,non_target,freshman,Psychology,other
+U101698,info_session_registration,Ohio State University,semi_target,sophomore,Psychology,other
+U101809,email_capture,University of Nevada,non_target,sophomore,Economics,finance_econ
+U101121,resume_workshop_registration,University of Pennsylvania,target,senior,Political Science,other
+U101438,resume_workshop_registration,Arizona State University,non_target,junior,Communications,other
+U100376,info_session_registration,Harvard University,target,junior,Accounting,finance_econ
+U100757,resume_workshop_registration,Cornell University,target,senior,Psychology,other
+U100356,resume_template_form,University of Chicago,target,junior,History,other
+U100508,resume_template_form,Harvard University,target,senior,Economics,finance_econ
+U101345,resume_template_form,Emory University,semi_target,senior,Accounting,finance_econ
+U100192,email_capture,University of Chicago,target,junior,Accounting,finance_econ
+U100934,resume_workshop_registration,Ohio State University,semi_target,freshman,Accounting,finance_econ
+U101554,resume_template_form,UT Austin,semi_target,sophomore,Accounting,finance_econ
+U101702,resume_workshop_registration,Ohio State University,semi_target,sophomore,Finance,finance_econ
+U100395,resume_template_form,Ohio State University,semi_target,senior,Psychology,other
+U101063,resume_workshop_registration,University of Virginia,semi_target,freshman,Engineering,stem
+U100594,resume_workshop_registration,UT Austin,semi_target,senior,Mathematics,stem
+U100868,self_completed_profile,Emory University,semi_target,junior,Mathematics,stem
+U101124,info_session_registration,University of Pennsylvania,target,senior,Political Science,other
+U100556,info_session_registration,Ohio State University,semi_target,freshman,Economics,finance_econ
+U100901,info_session_registration,Emory University,semi_target,junior,Political Science,other
+U100207,resume_workshop_registration,UT Austin,semi_target,junior,History,other
+U101881,email_capture,University of Illinois,semi_target,junior,Communications,other
+U100685,info_session_registration,UT Austin,semi_target,junior,Accounting,finance_econ
+U100396,resume_workshop_registration,Kent State University,non_target,freshman,History,other
+U100174,resume_template_form,University of Kansas,non_target,sophomore,Accounting,finance_econ
+U100727,resume_template_form,UT Austin,semi_target,junior,Statistics,stem
+U101731,info_session_registration,Boston College,semi_target,senior,Political Science,other
+U101376,resume_template_form,Kent State University,non_target,junior,Psychology,other
+U101195,email_capture,Temple University,non_target,junior,History,other
+U100101,resume_workshop_registration,University of Michigan,target,senior,Psychology,other
+U100633,info_session_registration,Emory University,semi_target,senior,Communications,other
+U101569,resume_template_form,Kent State University,non_target,junior,Finance,finance_econ
+U101771,resume_template_form,University of Illinois,semi_target,junior,Political Science,other
+U100710,resume_template_form,Kent State University,non_target,junior,Engineering,stem
+U101460,self_completed_profile,Temple University,non_target,freshman,Communications,other
+U100495,resume_template_form,San Diego State,non_target,sophomore,Computer Science,stem
+U100842,email_capture,Emory University,semi_target,sophomore,Psychology,other
+U100143,resume_workshop_registration,University of Chicago,target,junior,Finance,finance_econ
+U101862,email_capture,Temple University,non_target,sophomore,Computer Science,stem
+U101337,email_capture,University of Illinois,semi_target,junior,Communications,other
+U100651,self_completed_profile,Harvard University,target,senior,Accounting,finance_econ
+U100593,self_completed_profile,University of Illinois,semi_target,junior,Accounting,finance_econ
+U101508,email_capture,Boston College,semi_target,freshman,Psychology,other
+U100662,resume_template_form,Emory University,semi_target,senior,Accounting,finance_econ
+U101040,self_completed_profile,Arizona State University,non_target,senior,Finance,finance_econ
+U100969,resume_workshop_registration,Kent State University,non_target,junior,Psychology,other
+U101816,email_capture,University of Kansas,non_target,junior,Political Science,other
+U100897,email_capture,University of Pennsylvania,target,junior,Political Science,other
+U101371,resume_template_form,University of Pennsylvania,target,junior,Engineering,stem
+U100699,resume_template_form,University of Virginia,semi_target,freshman,Economics,finance_econ
+U101095,info_session_registration,Harvard University,target,junior,Computer Science,stem
+U101803,resume_template_form,San Diego State,non_target,senior,Political Science,other
+U101798,info_session_registration,Boston College,semi_target,senior,Accounting,finance_econ
+U100154,email_capture,New York University,target,senior,Economics,finance_econ
+U100196,resume_template_form,Harvard University,target,senior,Communications,other
+U101235,resume_template_form,Kent State University,non_target,senior,Engineering,stem
+U101878,email_capture,University of Nevada,non_target,junior,Psychology,other
+U100229,info_session_registration,Harvard University,target,sophomore,Mathematics,stem
+U100411,email_capture,New York University,target,junior,Political Science,other
+U101507,resume_template_form,UT Austin,semi_target,sophomore,Finance,finance_econ
+U101158,self_completed_profile,University of Illinois,semi_target,senior,History,other
+U101193,self_completed_profile,University of Michigan,target,junior,Statistics,stem
+U100252,resume_template_form,University of Nevada,non_target,junior,Accounting,finance_econ
+U101374,resume_template_form,Ohio State University,semi_target,senior,Psychology,other
+U101211,email_capture,Emory University,semi_target,freshman,Engineering,stem
+U101467,self_completed_profile,Cornell University,target,junior,Economics,finance_econ
+U101258,info_session_registration,Arizona State University,non_target,freshman,Engineering,stem
+U101839,resume_workshop_registration,Kent State University,non_target,sophomore,Economics,finance_econ
+U101424,resume_template_form,Kent State University,non_target,senior,Engineering,stem
+U100217,self_completed_profile,UT Austin,semi_target,junior,Economics,finance_econ
+U101052,resume_workshop_registration,Emory University,semi_target,junior,History,other
+U101153,info_session_registration,Temple University,non_target,freshman,Computer Science,stem
+U101819,resume_template_form,University of Chicago,target,junior,History,other
+U101830,self_completed_profile,Emory University,semi_target,freshman,Psychology,other
+U101610,info_session_registration,Cornell University,target,senior,Economics,finance_econ
+U100573,info_session_registration,New York University,target,senior,Mathematics,stem
+U101775,info_session_registration,University of Virginia,semi_target,junior,Communications,other
+U100082,resume_template_form,Kent State University,non_target,senior,Accounting,finance_econ
+U101556,resume_template_form,New York University,target,sophomore,Communications,other
+U101589,resume_workshop_registration,Emory University,semi_target,junior,Mathematics,stem
+U100388,self_completed_profile,Boston College,semi_target,senior,Political Science,other
+U100053,resume_workshop_registration,Ohio State University,semi_target,junior,Finance,finance_econ
+U101735,self_completed_profile,San Diego State,non_target,freshman,Accounting,finance_econ
+U100624,resume_template_form,New York University,target,freshman,Mathematics,stem
+U101356,resume_workshop_registration,University of Virginia,semi_target,senior,Accounting,finance_econ
+U101781,info_session_registration,Temple University,non_target,junior,Statistics,stem
+U101423,resume_template_form,Kent State University,non_target,sophomore,Finance,finance_econ
+U100230,self_completed_profile,Harvard University,target,senior,Statistics,stem
+U100613,resume_template_form,University of Virginia,semi_target,sophomore,Finance,finance_econ
+U101146,email_capture,San Diego State,non_target,junior,History,other
+U101846,resume_template_form,University of Michigan,target,junior,Political Science,other
+U101883,resume_template_form,Harvard University,target,sophomore,Finance,finance_econ
+U101247,email_capture,University of Pennsylvania,target,senior,Psychology,other
+U100630,resume_workshop_registration,UT Austin,semi_target,senior,History,other
+U100948,resume_workshop_registration,Arizona State University,non_target,senior,Mathematics,stem
+U101138,email_capture,New York University,target,junior,Political Science,other
+U101242,email_capture,Ohio State University,semi_target,senior,Statistics,stem
+U101513,resume_template_form,University of Kansas,non_target,sophomore,Accounting,finance_econ
+U100923,resume_template_form,Arizona State University,non_target,freshman,History,other
+U101269,info_session_registration,Emory University,semi_target,senior,Economics,finance_econ
+U101891,resume_workshop_registration,Harvard University,target,sophomore,Statistics,stem
+U100137,info_session_registration,San Diego State,non_target,freshman,Communications,other
+U100965,info_session_registration,San Diego State,non_target,junior,Engineering,stem
+U100501,resume_workshop_registration,Temple University,non_target,senior,Mathematics,stem
+U100314,resume_template_form,University of Chicago,target,sophomore,Psychology,other
+U101624,info_session_registration,Emory University,semi_target,junior,Economics,finance_econ
+U101367,resume_template_form,University of Michigan,target,junior,Political Science,other
+U101181,resume_workshop_registration,University of Virginia,semi_target,junior,Statistics,stem
+U100062,resume_workshop_registration,Kent State University,non_target,junior,Computer Science,stem
+U100538,resume_template_form,University of Illinois,semi_target,senior,Political Science,other
+U100360,email_capture,Emory University,semi_target,sophomore,Psychology,other
+U101290,resume_workshop_registration,Temple University,non_target,senior,Economics,finance_econ
+U100899,email_capture,Temple University,non_target,senior,Statistics,stem
+U101397,email_capture,Boston College,semi_target,senior,Computer Science,stem
+U100891,resume_template_form,Ohio State University,semi_target,senior,Computer Science,stem
+U100060,resume_template_form,University of Illinois,semi_target,freshman,Engineering,stem
+U100509,resume_template_form,University of Virginia,semi_target,junior,Economics,finance_econ
+U100363,info_session_registration,Ohio State University,semi_target,sophomore,Computer Science,stem
+U101494,info_session_registration,San Diego State,non_target,junior,History,other
+U101560,resume_workshop_registration,Kent State University,non_target,junior,Computer Science,stem
+U101784,self_completed_profile,Harvard University,target,junior,Psychology,other
+U100754,email_capture,University of Virginia,semi_target,junior,Communications,other
+U101635,self_completed_profile,University of Kansas,non_target,junior,Computer Science,stem
+U100223,resume_template_form,University of Kansas,non_target,senior,Communications,other
+U100482,resume_template_form,University of Pennsylvania,target,senior,Computer Science,stem
+U101565,info_session_registration,New York University,target,junior,Finance,finance_econ
+U101073,info_session_registration,University of Chicago,target,junior,History,other
+U101379,resume_template_form,Cornell University,target,junior,Computer Science,stem
+U101753,self_completed_profile,University of Nevada,non_target,junior,Political Science,other
+U101944,email_capture,University of Illinois,semi_target,freshman,Psychology,other
+U100820,resume_template_form,Emory University,semi_target,senior,History,other
+U101776,resume_template_form,New York University,target,sophomore,Psychology,other
+U100880,resume_workshop_registration,University of Chicago,target,sophomore,Finance,finance_econ
+U100013,resume_workshop_registration,New York University,target,senior,Finance,finance_econ
+U101143,resume_template_form,University of Nevada,non_target,junior,History,other
+U100974,resume_template_form,University of Illinois,semi_target,freshman,Computer Science,stem
+U101542,resume_template_form,Harvard University,target,junior,History,other
+U100600,info_session_registration,University of Kansas,non_target,junior,Statistics,stem
+U101687,resume_workshop_registration,University of Michigan,target,junior,Political Science,other
+U100763,info_session_registration,Arizona State University,non_target,freshman,Engineering,stem
+U100867,resume_workshop_registration,Temple University,non_target,sophomore,Political Science,other
+U101457,email_capture,Emory University,semi_target,junior,Finance,finance_econ
+U101576,self_completed_profile,University of Kansas,non_target,senior,Economics,finance_econ
+U100693,email_capture,Boston College,semi_target,senior,Communications,other
+U101965,self_completed_profile,University of Nevada,non_target,junior,Statistics,stem
+U101318,resume_workshop_registration,Ohio State University,semi_target,sophomore,Accounting,finance_econ
+U100768,resume_workshop_registration,San Diego State,non_target,freshman,Communications,other
+U101889,self_completed_profile,University of Kansas,non_target,sophomore,Political Science,other
+U101222,self_completed_profile,University of Kansas,non_target,senior,Accounting,finance_econ
+U100097,resume_template_form,University of Nevada,non_target,sophomore,History,other
+U100812,resume_template_form,Boston College,semi_target,senior,History,other
+U100706,info_session_registration,University of Chicago,target,freshman,Statistics,stem
+U100522,email_capture,Harvard University,target,junior,Political Science,other
+U101879,resume_template_form,UT Austin,semi_target,senior,Statistics,stem
+U101419,email_capture,University of Virginia,semi_target,sophomore,Economics,finance_econ
+U101900,resume_template_form,Boston College,semi_target,freshman,Statistics,stem
+U101357,resume_template_form,Emory University,semi_target,junior,Accounting,finance_econ
+U100919,email_capture,Ohio State University,semi_target,junior,Engineering,stem
+U100016,info_session_registration,Ohio State University,semi_target,freshman,Communications,other
+U100567,resume_workshop_registration,Arizona State University,non_target,sophomore,Political Science,other
+U100389,resume_template_form,University of Michigan,target,sophomore,Political Science,other
+U100582,self_completed_profile,San Diego State,non_target,senior,Political Science,other
+U100561,email_capture,Boston College,semi_target,senior,Computer Science,stem
+U101925,info_session_registration,Kent State University,non_target,freshman,Economics,finance_econ
+U100426,resume_template_form,University of Michigan,target,junior,Economics,finance_econ
+U101618,resume_template_form,San Diego State,non_target,sophomore,Engineering,stem
+U100337,email_capture,Cornell University,target,sophomore,Communications,other
+U101960,resume_workshop_registration,Harvard University,target,freshman,Computer Science,stem
+U100139,self_completed_profile,San Diego State,non_target,sophomore,Political Science,other
+U101372,self_completed_profile,University of Nevada,non_target,junior,Psychology,other
+U101676,info_session_registration,University of Virginia,semi_target,senior,Accounting,finance_econ
+U100760,email_capture,Temple University,non_target,junior,Mathematics,stem
+U101427,resume_template_form,Kent State University,non_target,junior,Psychology,other
+U101289,email_capture,University of Illinois,semi_target,junior,Finance,finance_econ
+U100490,resume_workshop_registration,Boston College,semi_target,junior,Communications,other
+U100099,resume_workshop_registration,University of Illinois,semi_target,senior,Statistics,stem
+U101436,self_completed_profile,UT Austin,semi_target,senior,History,other
+U100043,info_session_registration,University of Kansas,non_target,senior,Statistics,stem
+U100669,resume_template_form,Harvard University,target,junior,Communications,other
+U100057,resume_workshop_registration,Harvard University,target,senior,Communications,other
+U101961,resume_template_form,Ohio State University,semi_target,junior,Economics,finance_econ
+U100512,info_session_registration,New York University,target,freshman,Statistics,stem
+U100216,info_session_registration,Emory University,semi_target,junior,History,other
+U100443,resume_template_form,University of Illinois,semi_target,senior,Finance,finance_econ
+U100081,info_session_registration,Harvard University,target,sophomore,Statistics,stem
+U100273,info_session_registration,University of Kansas,non_target,senior,Statistics,stem
+U101623,email_capture,University of Virginia,semi_target,junior,Statistics,stem
+U100492,resume_workshop_registration,San Diego State,non_target,junior,History,other
+U101701,resume_template_form,Emory University,semi_target,junior,History,other
+U100442,resume_workshop_registration,Boston College,semi_target,junior,Finance,finance_econ
+U100721,info_session_registration,Cornell University,target,freshman,Statistics,stem
+U101567,resume_template_form,Harvard University,target,sophomore,Communications,other
+U100368,resume_template_form,San Diego State,non_target,sophomore,Computer Science,stem
+U101406,email_capture,Boston College,semi_target,senior,Computer Science,stem
+U101840,resume_workshop_registration,University of Michigan,target,junior,Accounting,finance_econ
+U101591,resume_template_form,Ohio State University,semi_target,senior,Political Science,other
+U100949,resume_workshop_registration,San Diego State,non_target,junior,Psychology,other
+U100163,resume_workshop_registration,Boston College,semi_target,junior,Finance,finance_econ
+U101286,email_capture,University of Kansas,non_target,sophomore,History,other
+U101238,resume_workshop_registration,Emory University,semi_target,sophomore,History,other
+U100006,email_capture,Ohio State University,semi_target,junior,Economics,finance_econ
+U101670,resume_template_form,Harvard University,target,senior,Accounting,finance_econ
+U101647,info_session_registration,Harvard University,target,freshman,History,other
+U100869,resume_template_form,UT Austin,semi_target,junior,Statistics,stem
+U100884,resume_workshop_registration,Boston College,semi_target,junior,Finance,finance_econ
+U100617,email_capture,Temple University,non_target,junior,Finance,finance_econ
+U100333,resume_template_form,Arizona State University,non_target,sophomore,History,other
+U100347,resume_template_form,University of Nevada,non_target,senior,Engineering,stem
+U101580,email_capture,University of Kansas,non_target,junior,Mathematics,stem
+U100825,resume_template_form,University of Michigan,target,junior,Finance,finance_econ
+U101022,resume_template_form,UT Austin,semi_target,junior,Psychology,other
+U101801,resume_workshop_registration,University of Nevada,non_target,senior,Finance,finance_econ
+U101446,resume_template_form,Boston College,semi_target,junior,Finance,finance_econ
+U101028,resume_template_form,University of Pennsylvania,target,senior,Communications,other
+U100289,info_session_registration,Ohio State University,semi_target,sophomore,Economics,finance_econ
+U101677,info_session_registration,University of Michigan,target,senior,Accounting,finance_econ
+U100550,resume_workshop_registration,University of Nevada,non_target,junior,Communications,other
+U101503,resume_workshop_registration,University of Kansas,non_target,junior,Mathematics,stem
+U100055,resume_template_form,New York University,target,junior,Economics,finance_econ
+U101178,info_session_registration,University of Illinois,semi_target,junior,Economics,finance_econ
+U101245,resume_template_form,University of Michigan,target,sophomore,Political Science,other
+U101692,email_capture,Boston College,semi_target,sophomore,Statistics,stem
+U100090,resume_template_form,Temple University,non_target,junior,Engineering,stem
+U101162,resume_template_form,UT Austin,semi_target,freshman,Psychology,other
+U100543,resume_workshop_registration,Temple University,non_target,freshman,Mathematics,stem
+U101570,resume_workshop_registration,University of Kansas,non_target,sophomore,Economics,finance_econ
+U101348,info_session_registration,Temple University,non_target,freshman,History,other
+U100835,email_capture,Emory University,semi_target,freshman,Psychology,other
+U101179,resume_template_form,University of Virginia,semi_target,senior,Finance,finance_econ
+U101529,resume_workshop_registration,Emory University,semi_target,freshman,Finance,finance_econ
+U101031,resume_workshop_registration,Boston College,semi_target,sophomore,Political Science,other
+U102002,info_session_registration,Ohio State University,semi_target,junior,Computer Science,stem
+U101699,email_capture,University of Chicago,target,junior,Computer Science,stem
+U100728,resume_workshop_registration,University of Chicago,target,junior,Political Science,other
+U101997,self_completed_profile,Arizona State University,non_target,sophomore,Psychology,other
+U101719,resume_template_form,Boston College,semi_target,senior,Accounting,finance_econ
+U100935,resume_workshop_registration,Cornell University,target,junior,Statistics,stem
+U101240,info_session_registration,University of Virginia,semi_target,sophomore,Communications,other
+U101709,self_completed_profile,University of Pennsylvania,target,sophomore,Computer Science,stem
+U101451,resume_template_form,University of Chicago,target,junior,Mathematics,stem
+U100647,resume_template_form,Emory University,semi_target,junior,Statistics,stem
+U101027,self_completed_profile,UT Austin,semi_target,senior,Engineering,stem
+U101049,email_capture,University of Illinois,semi_target,senior,Political Science,other
+U100745,email_capture,University of Kansas,non_target,freshman,Psychology,other
+U100316,email_capture,Temple University,non_target,senior,History,other
+U101069,self_completed_profile,San Diego State,non_target,junior,Finance,finance_econ
+U100809,resume_template_form,Boston College,semi_target,senior,Finance,finance_econ
+U101732,resume_template_form,New York University,target,senior,History,other
+U101123,resume_workshop_registration,University of Michigan,target,freshman,Accounting,finance_econ
+U101617,resume_template_form,Ohio State University,semi_target,sophomore,Mathematics,stem
+U101389,self_completed_profile,Cornell University,target,senior,Accounting,finance_econ
+U101587,resume_workshop_registration,UT Austin,semi_target,senior,Finance,finance_econ
+U101633,resume_workshop_registration,University of Virginia,semi_target,senior,Communications,other
+U100577,self_completed_profile,University of Kansas,non_target,sophomore,Statistics,stem
+U100879,resume_template_form,UT Austin,semi_target,sophomore,Political Science,other
+U101057,resume_workshop_registration,San Diego State,non_target,freshman,Accounting,finance_econ
+U100519,resume_workshop_registration,Boston College,semi_target,sophomore,Communications,other
+U100864,email_capture,University of Kansas,non_target,junior,Economics,finance_econ
+U101177,resume_template_form,University of Nevada,non_target,junior,History,other
+U101093,resume_template_form,Emory University,semi_target,senior,Finance,finance_econ
+U100702,info_session_registration,University of Michigan,target,sophomore,Engineering,stem
+U100713,info_session_registration,Harvard University,target,sophomore,Statistics,stem
+U100263,email_capture,Kent State University,non_target,senior,Psychology,other
+U101971,email_capture,Harvard University,target,senior,Mathematics,stem
+U100398,resume_template_form,Arizona State University,non_target,senior,Mathematics,stem
+U101096,self_completed_profile,University of Illinois,semi_target,junior,Finance,finance_econ
+U101005,resume_workshop_registration,University of Chicago,target,junior,Psychology,other
+U100364,resume_template_form,Temple University,non_target,junior,Engineering,stem
+U100978,email_capture,Ohio State University,semi_target,junior,Economics,finance_econ
+U101277,resume_workshop_registration,University of Illinois,semi_target,junior,Statistics,stem
+U101426,resume_workshop_registration,UT Austin,semi_target,senior,Statistics,stem
+U100319,resume_workshop_registration,Temple University,non_target,sophomore,Communications,other
+U101133,resume_template_form,San Diego State,non_target,sophomore,Political Science,other
+U101744,self_completed_profile,Kent State University,non_target,freshman,Political Science,other
+U100716,info_session_registration,San Diego State,non_target,sophomore,Communications,other
+U100765,info_session_registration,University of Nevada,non_target,junior,Economics,finance_econ
+U101321,self_completed_profile,Boston College,semi_target,junior,Political Science,other
+U101964,email_capture,Cornell University,target,freshman,Statistics,stem
+U100900,self_completed_profile,Emory University,semi_target,senior,Communications,other
+U101955,resume_template_form,Ohio State University,semi_target,junior,Psychology,other
+U101838,resume_template_form,Arizona State University,non_target,freshman,Finance,finance_econ
+U100987,resume_workshop_registration,Emory University,semi_target,junior,Finance,finance_econ
+U101449,resume_template_form,Harvard University,target,junior,Mathematics,stem
+U101834,info_session_registration,Boston College,semi_target,freshman,Finance,finance_econ
+U101191,email_capture,Cornell University,target,sophomore,Mathematics,stem
+U100510,resume_template_form,University of Virginia,semi_target,senior,Communications,other
+U100815,info_session_registration,University of Michigan,target,junior,Mathematics,stem
+U101685,resume_template_form,University of Chicago,target,senior,Communications,other
+U100915,info_session_registration,New York University,target,freshman,Political Science,other
+U100279,info_session_registration,Ohio State University,semi_target,senior,Engineering,stem
+U100131,info_session_registration,University of Illinois,semi_target,sophomore,Finance,finance_econ
+U101637,self_completed_profile,New York University,target,junior,Communications,other
+U100129,resume_workshop_registration,Boston College,semi_target,freshman,Accounting,finance_econ
+U100367,resume_workshop_registration,New York University,target,senior,Economics,finance_econ
+U101940,info_session_registration,Temple University,non_target,sophomore,Statistics,stem
+U100606,resume_template_form,Harvard University,target,junior,History,other
+U101302,email_capture,New York University,target,sophomore,History,other
+U100014,resume_template_form,University of Pennsylvania,target,senior,History,other
+U101100,resume_workshop_registration,San Diego State,non_target,senior,Statistics,stem
+U100266,resume_template_form,Harvard University,target,sophomore,Computer Science,stem
+U100384,resume_template_form,University of Chicago,target,junior,Political Science,other
+U100480,resume_template_form,Harvard University,target,senior,Finance,finance_econ
+U101384,self_completed_profile,New York University,target,junior,Mathematics,stem
+U101008,email_capture,San Diego State,non_target,senior,Political Science,other
+U100047,email_capture,UT Austin,semi_target,senior,Economics,finance_econ
+U100607,info_session_registration,Emory University,semi_target,junior,Economics,finance_econ
+U101170,email_capture,Cornell University,target,sophomore,History,other
+U100635,info_session_registration,Ohio State University,semi_target,junior,Communications,other
+U101721,resume_template_form,Cornell University,target,junior,Political Science,other
+U101064,resume_template_form,University of Nevada,non_target,sophomore,Accounting,finance_econ
+U101256,resume_template_form,Boston College,semi_target,junior,Economics,finance_econ
+U101094,resume_template_form,Cornell University,target,senior,Mathematics,stem
+U101946,info_session_registration,University of Virginia,semi_target,senior,Engineering,stem
+U100205,resume_template_form,Cornell University,target,junior,Communications,other
+U100932,resume_workshop_registration,Kent State University,non_target,sophomore,Communications,other
+U100751,info_session_registration,New York University,target,junior,Finance,finance_econ
+U100544,info_session_registration,University of Nevada,non_target,junior,Political Science,other
+U100774,resume_template_form,Arizona State University,non_target,sophomore,Finance,finance_econ
+U101275,resume_template_form,Boston College,semi_target,freshman,Communications,other
+U100732,email_capture,Harvard University,target,junior,Computer Science,stem
+U101249,info_session_registration,Boston College,semi_target,freshman,Statistics,stem
+U101714,resume_template_form,San Diego State,non_target,junior,Communications,other
+U100729,self_completed_profile,Ohio State University,semi_target,senior,History,other
+U101563,resume_template_form,Cornell University,target,senior,Computer Science,stem
+U100709,email_capture,Boston College,semi_target,freshman,Political Science,other
+U100696,info_session_registration,Kent State University,non_target,sophomore,Political Science,other
+U100181,self_completed_profile,Cornell University,target,freshman,Communications,other
+U101301,email_capture,Arizona State University,non_target,freshman,Economics,finance_econ
+U101828,info_session_registration,Arizona State University,non_target,junior,Mathematics,stem
+U100684,resume_workshop_registration,Emory University,semi_target,senior,Statistics,stem
+U100238,email_capture,UT Austin,semi_target,senior,Engineering,stem
+U101956,resume_template_form,Ohio State University,semi_target,senior,Political Science,other
+U101804,resume_template_form,University of Virginia,semi_target,junior,Economics,finance_econ
+U101215,resume_template_form,Emory University,semi_target,senior,Computer Science,stem
+U100303,self_completed_profile,Emory University,semi_target,sophomore,Mathematics,stem
+U101516,info_session_registration,University of Kansas,non_target,senior,Accounting,finance_econ
+U101934,email_capture,New York University,target,freshman,Statistics,stem
+U101102,resume_template_form,Emory University,semi_target,sophomore,Finance,finance_econ
+U100853,info_session_registration,Boston College,semi_target,junior,Accounting,finance_econ
+U100589,email_capture,Boston College,semi_target,senior,Mathematics,stem
+U100746,self_completed_profile,Boston College,semi_target,sophomore,Political Science,other
+U101856,resume_template_form,University of Kansas,non_target,sophomore,Political Science,other
+U100954,email_capture,University of Illinois,semi_target,junior,Computer Science,stem
+U100445,resume_template_form,University of Nevada,non_target,senior,Finance,finance_econ
+U101697,resume_template_form,San Diego State,non_target,sophomore,Statistics,stem
+U101125,resume_workshop_registration,Harvard University,target,junior,Economics,finance_econ
+U101963,info_session_registration,Arizona State University,non_target,junior,Engineering,stem
+U100249,email_capture,Ohio State University,semi_target,senior,Communications,other
+U101584,email_capture,Boston College,semi_target,senior,Accounting,finance_econ
+U101325,email_capture,Temple University,non_target,junior,Mathematics,stem
+U100021,resume_workshop_registration,San Diego State,non_target,senior,Computer Science,stem
+U100341,resume_workshop_registration,Boston College,semi_target,junior,Statistics,stem
+U101951,resume_workshop_registration,Harvard University,target,freshman,Computer Science,stem
+U101219,info_session_registration,Cornell University,target,sophomore,Communications,other
+U100545,resume_template_form,University of Chicago,target,senior,Mathematics,stem
+U100811,info_session_registration,San Diego State,non_target,senior,Finance,finance_econ
+U101280,resume_template_form,San Diego State,non_target,senior,Political Science,other
+U101333,email_capture,University of Pennsylvania,target,junior,Mathematics,stem
+U100282,info_session_registration,University of Illinois,semi_target,junior,Communications,other
+U100034,email_capture,Cornell University,target,senior,Psychology,other
+U100236,resume_template_form,Arizona State University,non_target,junior,Finance,finance_econ
+U100674,resume_template_form,University of Nevada,non_target,freshman,Accounting,finance_econ
+U100585,info_session_registration,University of Michigan,target,sophomore,Computer Science,stem
+U100402,email_capture,Boston College,semi_target,junior,Statistics,stem
+U100642,info_session_registration,University of Kansas,non_target,sophomore,Economics,finance_econ
+U100926,resume_template_form,San Diego State,non_target,freshman,Communications,other
+U101274,resume_template_form,University of Kansas,non_target,freshman,Political Science,other
+U100030,info_session_registration,University of Virginia,semi_target,junior,Mathematics,stem
+U100560,resume_template_form,New York University,target,sophomore,History,other
+U100049,self_completed_profile,University of Kansas,non_target,sophomore,Economics,finance_econ
+U101111,info_session_registration,Boston College,semi_target,sophomore,Economics,finance_econ
+U101620,email_capture,University of Illinois,semi_target,senior,Political Science,other
+U100224,resume_template_form,Arizona State University,non_target,senior,Political Science,other
+U100182,email_capture,University of Kansas,non_target,junior,Computer Science,stem
+U101499,resume_workshop_registration,University of Michigan,target,sophomore,Psychology,other
+U101369,email_capture,University of Illinois,semi_target,junior,Economics,finance_econ
+U101013,email_capture,University of Chicago,target,junior,History,other
+U101386,resume_template_form,Boston College,semi_target,sophomore,Engineering,stem
+U100377,info_session_registration,University of Nevada,non_target,junior,Psychology,other
+U100233,resume_template_form,Kent State University,non_target,junior,Political Science,other
+U100228,resume_template_form,Cornell University,target,junior,Communications,other
+U100497,resume_template_form,University of Kansas,non_target,sophomore,Statistics,stem
+U101169,resume_template_form,UT Austin,semi_target,freshman,Mathematics,stem
+U101203,resume_template_form,Harvard University,target,junior,Communications,other
+U101418,email_capture,Temple University,non_target,senior,Economics,finance_econ
+U101909,resume_template_form,University of Virginia,semi_target,junior,Psychology,other
+U100051,resume_template_form,UT Austin,semi_target,senior,Finance,finance_econ
+U100144,self_completed_profile,San Diego State,non_target,freshman,Communications,other
+U101754,resume_template_form,University of Pennsylvania,target,senior,Mathematics,stem
+U100058,resume_template_form,Arizona State University,non_target,junior,History,other
+U101810,email_capture,Emory University,semi_target,junior,Computer Science,stem
+U100370,resume_template_form,University of Illinois,semi_target,junior,Computer Science,stem
+U101259,info_session_registration,Arizona State University,non_target,sophomore,Finance,finance_econ
+U101038,info_session_registration,UT Austin,semi_target,freshman,Finance,finance_econ
+U101797,resume_workshop_registration,University of Illinois,semi_target,senior,Engineering,stem
+U101045,self_completed_profile,Kent State University,non_target,junior,Communications,other
+U100944,email_capture,Emory University,semi_target,freshman,Engineering,stem
+U100968,resume_template_form,University of Kansas,non_target,sophomore,History,other
+U101954,resume_template_form,Cornell University,target,sophomore,Computer Science,stem
+U101305,resume_workshop_registration,University of Virginia,semi_target,sophomore,Statistics,stem
+U100251,resume_template_form,Harvard University,target,junior,Accounting,finance_econ
+U101640,resume_template_form,New York University,target,freshman,Accounting,finance_econ
+U100390,resume_template_form,Harvard University,target,junior,Economics,finance_econ
+U101131,self_completed_profile,Cornell University,target,sophomore,Accounting,finance_econ
+U101087,info_session_registration,University of Pennsylvania,target,sophomore,Accounting,finance_econ
+U101777,self_completed_profile,Boston College,semi_target,sophomore,Economics,finance_econ
+U100483,email_capture,University of Nevada,non_target,junior,Statistics,stem
+U101887,email_capture,UT Austin,semi_target,junior,History,other
+U101938,resume_template_form,Kent State University,non_target,senior,Political Science,other
+U100026,email_capture,University of Virginia,semi_target,sophomore,Statistics,stem
+U101606,resume_template_form,San Diego State,non_target,sophomore,Psychology,other
+U100735,resume_template_form,University of Virginia,semi_target,junior,Finance,finance_econ
+U101837,resume_template_form,University of Chicago,target,senior,History,other
+U101477,email_capture,Ohio State University,semi_target,freshman,Accounting,finance_econ
+U101868,info_session_registration,UT Austin,semi_target,senior,Finance,finance_econ
+U101703,info_session_registration,University of Nevada,non_target,sophomore,History,other
+U100405,email_capture,Ohio State University,semi_target,junior,Economics,finance_econ
+U100408,info_session_registration,Emory University,semi_target,senior,Political Science,other
+U100555,self_completed_profile,University of Virginia,semi_target,sophomore,Communications,other
+U101029,email_capture,University of Illinois,semi_target,junior,Mathematics,stem
+U101974,resume_workshop_registration,UT Austin,semi_target,freshman,Computer Science,stem
+U101409,info_session_registration,Cornell University,target,sophomore,Engineering,stem
+U100694,info_session_registration,Ohio State University,semi_target,junior,Political Science,other
+U100964,resume_template_form,University of Nevada,non_target,junior,Finance,finance_econ
+U101149,info_session_registration,University of Virginia,semi_target,sophomore,Communications,other
+U100221,resume_workshop_registration,University of Virginia,semi_target,sophomore,Communications,other
+U100479,resume_template_form,University of Pennsylvania,target,senior,Economics,finance_econ
+U101046,resume_template_form,UT Austin,semi_target,freshman,Mathematics,stem
+U100902,resume_template_form,University of Virginia,semi_target,freshman,Political Science,other
+U101391,info_session_registration,UT Austin,semi_target,senior,Computer Science,stem
+U101261,email_capture,Emory University,semi_target,sophomore,Psychology,other
+U101017,info_session_registration,University of Illinois,semi_target,senior,Mathematics,stem
+U100896,info_session_registration,Boston College,semi_target,freshman,Engineering,stem
+U101322,resume_template_form,New York University,target,freshman,Accounting,finance_econ
+U100532,info_session_registration,University of Nevada,non_target,senior,Economics,finance_econ
+U100296,self_completed_profile,San Diego State,non_target,junior,Economics,finance_econ
+U100722,email_capture,University of Nevada,non_target,junior,Psychology,other
+U101404,resume_workshop_registration,Kent State University,non_target,junior,Economics,finance_econ
+U100911,email_capture,Kent State University,non_target,junior,Political Science,other
+U101025,self_completed_profile,University of Michigan,target,freshman,Mathematics,stem
+U100535,self_completed_profile,New York University,target,junior,Political Science,other
+U100559,resume_workshop_registration,Ohio State University,semi_target,sophomore,Accounting,finance_econ
+U100428,email_capture,UT Austin,semi_target,junior,Psychology,other
+U100103,info_session_registration,Emory University,semi_target,sophomore,Finance,finance_econ
+U100478,resume_template_form,New York University,target,junior,Finance,finance_econ
+U101385,resume_workshop_registration,Temple University,non_target,senior,Communications,other
+U101957,email_capture,University of Virginia,semi_target,junior,History,other
+U100682,info_session_registration,University of Michigan,target,sophomore,Accounting,finance_econ
+U101309,resume_template_form,University of Illinois,semi_target,junior,Statistics,stem
+U101696,info_session_registration,University of Michigan,target,senior,Mathematics,stem
+U101586,info_session_registration,Harvard University,target,sophomore,Psychology,other
+U100658,self_completed_profile,Temple University,non_target,senior,Accounting,finance_econ
+U101474,info_session_registration,University of Chicago,target,junior,Political Science,other
+U101454,resume_template_form,Boston College,semi_target,senior,Engineering,stem
+U100645,resume_template_form,Boston College,semi_target,senior,Finance,finance_econ
+U100586,info_session_registration,Cornell University,target,freshman,Psychology,other
+U100361,resume_template_form,University of Nevada,non_target,junior,Psychology,other
+U101502,resume_template_form,University of Pennsylvania,target,junior,Computer Science,stem
+U100475,resume_template_form,University of Nevada,non_target,junior,Psychology,other
+U100672,resume_template_form,University of Chicago,target,sophomore,Mathematics,stem
+U101599,email_capture,San Diego State,non_target,senior,Finance,finance_econ
+U100878,self_completed_profile,New York University,target,junior,History,other
+U100599,resume_template_form,Cornell University,target,junior,Communications,other
+U100407,resume_template_form,San Diego State,non_target,sophomore,Finance,finance_econ
+U101497,self_completed_profile,Emory University,semi_target,freshman,History,other
+U100102,self_completed_profile,University of Kansas,non_target,sophomore,Finance,finance_econ
+U100412,resume_workshop_registration,Harvard University,target,sophomore,Accounting,finance_econ
+U101420,resume_workshop_registration,University of Michigan,target,junior,History,other
+U101306,resume_workshop_registration,UT Austin,semi_target,junior,Psychology,other
+U101877,info_session_registration,San Diego State,non_target,sophomore,Psychology,other
+U100887,info_session_registration,University of Pennsylvania,target,sophomore,Computer Science,stem
+U100885,email_capture,San Diego State,non_target,senior,Statistics,stem
+U101517,resume_template_form,Harvard University,target,freshman,Economics,finance_econ
+U101596,info_session_registration,Kent State University,non_target,freshman,Statistics,stem
+U100660,resume_workshop_registration,New York University,target,senior,Political Science,other
+U100114,resume_workshop_registration,Ohio State University,semi_target,freshman,Psychology,other
+U100462,resume_workshop_registration,Emory University,semi_target,sophomore,Accounting,finance_econ
+U100387,resume_template_form,University of Chicago,target,sophomore,History,other
+U100531,resume_template_form,University of Nevada,non_target,sophomore,Political Science,other
+U100023,self_completed_profile,UT Austin,semi_target,junior,Economics,finance_econ
+U101653,resume_template_form,University of Illinois,semi_target,senior,Statistics,stem
+U101967,resume_workshop_registration,University of Chicago,target,sophomore,Accounting,finance_econ
+U101884,self_completed_profile,Harvard University,target,junior,Communications,other
+U100088,info_session_registration,Cornell University,target,freshman,Psychology,other
+U101204,info_session_registration,UT Austin,semi_target,junior,Mathematics,stem
+U101051,self_completed_profile,University of Illinois,semi_target,junior,Accounting,finance_econ
+U100184,email_capture,University of Virginia,semi_target,senior,Communications,other
+U100603,info_session_registration,University of Michigan,target,senior,Engineering,stem
+U100186,info_session_registration,University of Michigan,target,junior,Political Science,other
+U100080,resume_template_form,Cornell University,target,junior,Economics,finance_econ
+U101390,self_completed_profile,University of Michigan,target,senior,Communications,other
+U100737,resume_template_form,Cornell University,target,sophomore,Engineering,stem
+U100982,self_completed_profile,University of Nevada,non_target,senior,Economics,finance_econ
+U100267,info_session_registration,New York University,target,sophomore,Communications,other
+U101190,info_session_registration,Cornell University,target,junior,Engineering,stem
+U101785,email_capture,Temple University,non_target,junior,Finance,finance_econ
+U101650,email_capture,Ohio State University,semi_target,junior,Economics,finance_econ
+U100244,email_capture,Temple University,non_target,junior,Statistics,stem
+U101682,info_session_registration,University of Illinois,semi_target,junior,Communications,other
+U100079,resume_template_form,Cornell University,target,sophomore,Accounting,finance_econ
+U100796,email_capture,UT Austin,semi_target,junior,Psychology,other
+U100888,info_session_registration,Harvard University,target,freshman,Accounting,finance_econ
+U101220,info_session_registration,Arizona State University,non_target,senior,Economics,finance_econ
+U100202,resume_workshop_registration,University of Pennsylvania,target,junior,Economics,finance_econ
+U100741,resume_template_form,UT Austin,semi_target,sophomore,History,other
+U101578,resume_workshop_registration,Emory University,semi_target,senior,Psychology,other
+U100227,self_completed_profile,UT Austin,semi_target,junior,Political Science,other
+U101571,resume_template_form,Kent State University,non_target,senior,Economics,finance_econ
+U101574,info_session_registration,Temple University,non_target,junior,Political Science,other
+U100052,info_session_registration,UT Austin,semi_target,junior,Accounting,finance_econ
+U101978,resume_workshop_registration,Harvard University,target,junior,Engineering,stem
+U100323,self_completed_profile,University of Michigan,target,senior,Political Science,other
+U101996,resume_template_form,Arizona State University,non_target,sophomore,Engineering,stem
+U100643,info_session_registration,University of Pennsylvania,target,junior,Economics,finance_econ
+U101757,resume_workshop_registration,Boston College,semi_target,senior,Mathematics,stem
+U100151,resume_workshop_registration,Cornell University,target,junior,Political Science,other
+U101874,email_capture,Kent State University,non_target,sophomore,Engineering,stem
+U100910,info_session_registration,Emory University,semi_target,junior,Accounting,finance_econ
+U101350,resume_template_form,Arizona State University,non_target,junior,Communications,other
+U101089,info_session_registration,New York University,target,senior,Finance,finance_econ
+U101669,email_capture,University of Chicago,target,sophomore,Accounting,finance_econ
+U101351,resume_template_form,Temple University,non_target,junior,Political Science,other
+U101666,email_capture,University of Pennsylvania,target,sophomore,Economics,finance_econ
+U101157,info_session_registration,Harvard University,target,sophomore,Psychology,other
+U101155,resume_template_form,Cornell University,target,junior,Finance,finance_econ
+U100569,email_capture,Kent State University,non_target,senior,Mathematics,stem
+U101496,resume_template_form,Kent State University,non_target,senior,Economics,finance_econ
+U101668,self_completed_profile,University of Virginia,semi_target,sophomore,History,other
+U101663,info_session_registration,UT Austin,semi_target,junior,Mathematics,stem
+U100798,resume_template_form,Kent State University,non_target,junior,Political Science,other
+U100059,resume_workshop_registration,University of Nevada,non_target,sophomore,Computer Science,stem
+U101126,info_session_registration,Harvard University,target,junior,Computer Science,stem
+U101171,info_session_registration,Emory University,semi_target,sophomore,Accounting,finance_econ
+U100195,resume_template_form,Kent State University,non_target,senior,Finance,finance_econ
+U101140,info_session_registration,Cornell University,target,senior,Communications,other
+U100190,resume_workshop_registration,University of Illinois,semi_target,senior,Statistics,stem
+U100307,resume_template_form,San Diego State,non_target,junior,Economics,finance_econ
+U100500,email_capture,University of Illinois,semi_target,senior,Accounting,finance_econ
+U101068,email_capture,University of Illinois,semi_target,junior,Economics,finance_econ
+U100578,self_completed_profile,University of Nevada,non_target,freshman,Mathematics,stem
+U100548,resume_template_form,Arizona State University,non_target,freshman,Political Science,other
+U100125,resume_template_form,UT Austin,semi_target,sophomore,Engineering,stem
+U100844,resume_workshop_registration,University of Pennsylvania,target,junior,Statistics,stem
+U100084,resume_template_form,University of Pennsylvania,target,junior,Accounting,finance_econ
+U101904,resume_template_form,University of Illinois,semi_target,senior,Psychology,other
+U101625,email_capture,University of Nevada,non_target,senior,History,other
+U101011,resume_template_form,University of Michigan,target,senior,Economics,finance_econ
+U101607,resume_template_form,Temple University,non_target,junior,Engineering,stem
+U100017,info_session_registration,University of Virginia,semi_target,senior,Communications,other
+U101674,email_capture,University of Michigan,target,sophomore,Computer Science,stem
+U100837,info_session_registration,Cornell University,target,junior,Mathematics,stem
+U100231,resume_workshop_registration,Cornell University,target,senior,Mathematics,stem
+U101619,email_capture,San Diego State,non_target,junior,Political Science,other
+U101471,resume_template_form,University of Pennsylvania,target,sophomore,Finance,finance_econ
+U100870,self_completed_profile,University of Michigan,target,sophomore,Psychology,other
+U101081,resume_template_form,University of Pennsylvania,target,junior,Computer Science,stem
+U101099,email_capture,University of Virginia,semi_target,sophomore,Mathematics,stem
+U101411,email_capture,Harvard University,target,sophomore,Computer Science,stem
+U101913,self_completed_profile,University of Virginia,semi_target,junior,Communications,other
+U101814,self_completed_profile,San Diego State,non_target,junior,History,other
+U101336,info_session_registration,Harvard University,target,junior,Communications,other
+U100945,resume_template_form,University of Kansas,non_target,junior,Accounting,finance_econ
+U100806,resume_template_form,San Diego State,non_target,senior,Communications,other
+U101931,email_capture,Arizona State University,non_target,sophomore,Political Science,other
+U100611,email_capture,University of Kansas,non_target,junior,Statistics,stem
+U101715,resume_template_form,Boston College,semi_target,freshman,Economics,finance_econ
+U100861,email_capture,University of Nevada,non_target,junior,Statistics,stem
+U101788,info_session_registration,University of Virginia,semi_target,senior,Accounting,finance_econ
+U100792,email_capture,Arizona State University,non_target,junior,History,other
+U100882,email_capture,Boston College,semi_target,junior,Computer Science,stem
+U101595,email_capture,UT Austin,semi_target,sophomore,Psychology,other
+U101572,resume_template_form,Cornell University,target,sophomore,Accounting,finance_econ
+U101016,info_session_registration,University of Kansas,non_target,junior,History,other
+U101023,resume_template_form,University of Kansas,non_target,junior,Mathematics,stem
+U101212,info_session_registration,Kent State University,non_target,sophomore,Mathematics,stem
+U101299,resume_template_form,University of Nevada,non_target,sophomore,Political Science,other
+U101582,email_capture,Boston College,semi_target,sophomore,History,other
+U101196,resume_template_form,Emory University,semi_target,junior,Communications,other
+U100372,email_capture,Temple University,non_target,junior,Communications,other
+U100816,resume_template_form,Kent State University,non_target,sophomore,Accounting,finance_econ
+U101629,info_session_registration,University of Chicago,target,junior,Statistics,stem
+U101826,resume_workshop_registration,University of Kansas,non_target,junior,Statistics,stem
+U101144,resume_template_form,Arizona State University,non_target,sophomore,History,other
+U100859,resume_workshop_registration,University of Nevada,non_target,senior,Finance,finance_econ
+U100808,resume_template_form,Emory University,semi_target,senior,Finance,finance_econ
+U101942,resume_template_form,University of Nevada,non_target,junior,Psychology,other
+U101176,email_capture,University of Nevada,non_target,freshman,Accounting,finance_econ
+U100836,email_capture,Cornell University,target,junior,Engineering,stem
+U100218,resume_workshop_registration,Kent State University,non_target,junior,Computer Science,stem
+U101487,email_capture,University of Nevada,non_target,junior,Psychology,other
+U101161,info_session_registration,University of Nevada,non_target,sophomore,Psychology,other
+U101544,resume_workshop_registration,UT Austin,semi_target,senior,Political Science,other
+U100960,info_session_registration,Cornell University,target,sophomore,Finance,finance_econ
+U101410,resume_template_form,UT Austin,semi_target,freshman,Psychology,other
+U100904,self_completed_profile,University of Chicago,target,junior,Finance,finance_econ
+U101678,resume_template_form,Kent State University,non_target,senior,Mathematics,stem
+U101564,info_session_registration,Temple University,non_target,junior,History,other
+U101588,resume_workshop_registration,University of Virginia,semi_target,junior,Psychology,other
+U100200,resume_template_form,Ohio State University,semi_target,junior,Economics,finance_econ
+U100972,info_session_registration,University of Nevada,non_target,junior,Communications,other
+U101083,resume_workshop_registration,Ohio State University,semi_target,senior,Mathematics,stem
+U100215,email_capture,Temple University,non_target,junior,Computer Science,stem
+U100197,resume_workshop_registration,University of Nevada,non_target,junior,Finance,finance_econ
+U101691,email_capture,Emory University,semi_target,senior,Communications,other
+U100907,resume_workshop_registration,University of Virginia,semi_target,sophomore,Accounting,finance_econ
+U100743,resume_template_form,Kent State University,non_target,senior,Statistics,stem
+U100917,email_capture,University of Pennsylvania,target,junior,Accounting,finance_econ
+U101756,self_completed_profile,Temple University,non_target,freshman,Political Science,other
+U100833,self_completed_profile,Cornell University,target,junior,Economics,finance_econ
+U101505,resume_workshop_registration,Arizona State University,non_target,junior,Computer Science,stem
+U100465,self_completed_profile,University of Kansas,non_target,junior,Mathematics,stem
+U100772,info_session_registration,UT Austin,semi_target,sophomore,Finance,finance_econ
+U101922,resume_template_form,Emory University,semi_target,junior,Finance,finance_econ
+U101264,resume_template_form,University of Michigan,target,freshman,Mathematics,stem
+U100656,resume_template_form,UT Austin,semi_target,senior,Computer Science,stem
+U101510,resume_workshop_registration,University of Virginia,semi_target,senior,Accounting,finance_econ
+U101437,resume_template_form,Temple University,non_target,senior,Accounting,finance_econ
+U101414,resume_workshop_registration,UT Austin,semi_target,senior,Mathematics,stem
+U101988,self_completed_profile,University of Nevada,non_target,senior,History,other
+U100547,resume_workshop_registration,Cornell University,target,senior,Finance,finance_econ
+U100325,resume_template_form,Cornell University,target,sophomore,Engineering,stem
+U100324,resume_template_form,University of Nevada,non_target,freshman,Mathematics,stem
+U101577,self_completed_profile,Ohio State University,semi_target,senior,Engineering,stem
+U101573,resume_template_form,University of Kansas,non_target,junior,Finance,finance_econ
+U100601,resume_workshop_registration,Kent State University,non_target,junior,Accounting,finance_econ
+U100092,resume_template_form,University of Chicago,target,senior,Political Science,other
+U101853,self_completed_profile,University of Virginia,semi_target,senior,Political Science,other
+U100539,info_session_registration,Boston College,semi_target,junior,Economics,finance_econ
+U100054,resume_template_form,University of Illinois,semi_target,junior,Economics,finance_econ
+U100802,email_capture,University of Virginia,semi_target,senior,Political Science,other
+U101547,self_completed_profile,Boston College,semi_target,freshman,Communications,other
+U100605,email_capture,Temple University,non_target,junior,Finance,finance_econ
+U100640,resume_workshop_registration,New York University,target,sophomore,Mathematics,stem
+U101452,resume_workshop_registration,San Diego State,non_target,senior,Statistics,stem
+U101060,resume_workshop_registration,San Diego State,non_target,senior,Communications,other
+U100275,resume_template_form,Emory University,semi_target,senior,Psychology,other
+U100345,resume_template_form,Arizona State University,non_target,freshman,Mathematics,stem
+U100305,resume_template_form,Emory University,semi_target,senior,Computer Science,stem
+U100260,resume_template_form,University of Michigan,target,junior,Economics,finance_econ
+U101398,self_completed_profile,University of Virginia,semi_target,junior,History,other
+U101459,resume_workshop_registration,Harvard University,target,junior,Engineering,stem
+U100800,resume_workshop_registration,University of Virginia,semi_target,junior,Engineering,stem
+U100188,resume_workshop_registration,University of Illinois,semi_target,sophomore,Accounting,finance_econ
+U101475,email_capture,University of Illinois,semi_target,freshman,History,other
+U101481,self_completed_profile,Arizona State University,non_target,junior,History,other
+U100597,info_session_registration,University of Illinois,semi_target,junior,Finance,finance_econ
+U100637,resume_template_form,University of Illinois,semi_target,freshman,Psychology,other
+U100213,resume_template_form,Harvard University,target,freshman,Economics,finance_econ
+U100793,email_capture,University of Pennsylvania,target,senior,Mathematics,stem
+U101919,resume_workshop_registration,University of Virginia,semi_target,senior,Finance,finance_econ
+U101811,resume_workshop_registration,Boston College,semi_target,junior,Computer Science,stem
+U100409,resume_template_form,Ohio State University,semi_target,freshman,History,other
+U101644,resume_template_form,Ohio State University,semi_target,junior,Psychology,other
+U101043,resume_template_form,Temple University,non_target,junior,History,other
+U101416,resume_workshop_registration,Boston College,semi_target,senior,Accounting,finance_econ
+U100511,resume_template_form,Emory University,semi_target,sophomore,Psychology,other
+U100943,resume_template_form,Cornell University,target,sophomore,Finance,finance_econ
+U100505,resume_template_form,Boston College,semi_target,junior,Engineering,stem
+U101679,info_session_registration,UT Austin,semi_target,sophomore,Political Science,other
+U100086,resume_workshop_registration,University of Pennsylvania,target,senior,Communications,other
+U101037,resume_workshop_registration,Kent State University,non_target,senior,Finance,finance_econ
+U101304,resume_workshop_registration,Temple University,non_target,senior,History,other
+U100461,resume_template_form,Emory University,semi_target,sophomore,Finance,finance_econ
+U100750,resume_template_form,University of Virginia,semi_target,junior,Accounting,finance_econ
+U100257,resume_workshop_registration,Cornell University,target,junior,Computer Science,stem
+U101917,resume_template_form,University of Michigan,target,senior,Mathematics,stem
+U100927,self_completed_profile,Cornell University,target,senior,Political Science,other
+U101847,email_capture,University of Chicago,target,senior,Accounting,finance_econ
+U101835,resume_template_form,Emory University,semi_target,senior,Finance,finance_econ
+U100588,email_capture,University of Nevada,non_target,junior,Political Science,other
+U101989,email_capture,Boston College,semi_target,junior,History,other
+U100801,resume_workshop_registration,Emory University,semi_target,senior,Engineering,stem
+U101291,email_capture,Temple University,non_target,freshman,Computer Science,stem
+U100158,resume_template_form,Harvard University,target,senior,Political Science,other
+U100781,info_session_registration,New York University,target,junior,Mathematics,stem
+U101434,resume_workshop_registration,University of Michigan,target,freshman,Statistics,stem
+U101609,resume_workshop_registration,Ohio State University,semi_target,senior,Finance,finance_econ
+U100187,resume_template_form,Emory University,semi_target,junior,Finance,finance_econ
+U100130,resume_workshop_registration,University of Michigan,target,sophomore,Finance,finance_econ
+U101129,email_capture,Harvard University,target,freshman,Engineering,stem
+U101561,resume_workshop_registration,Harvard University,target,sophomore,Computer Science,stem
+U102006,resume_workshop_registration,University of Virginia,semi_target,junior,History,other
+U101539,self_completed_profile,Boston College,semi_target,senior,Computer Science,stem
+U100045,info_session_registration,University of Pennsylvania,target,junior,Psychology,other
+U100723,resume_workshop_registration,Arizona State University,non_target,senior,Political Science,other
+U101316,info_session_registration,Cornell University,target,sophomore,Engineering,stem
+U101323,resume_template_form,UT Austin,semi_target,senior,Statistics,stem
+U101896,resume_template_form,San Diego State,non_target,junior,Accounting,finance_econ
+U100909,resume_workshop_registration,University of Kansas,non_target,junior,Computer Science,stem
+U100203,self_completed_profile,Temple University,non_target,sophomore,Computer Science,stem
+U100680,self_completed_profile,University of Virginia,semi_target,junior,Mathematics,stem
+U100847,resume_workshop_registration,University of Virginia,semi_target,senior,Psychology,other
+U100937,info_session_registration,Boston College,semi_target,senior,Computer Science,stem
+U100070,email_capture,Emory University,semi_target,freshman,Communications,other
+U100162,resume_template_form,Boston College,semi_target,senior,Finance,finance_econ
+U101310,resume_template_form,Ohio State University,semi_target,senior,Computer Science,stem
+U100304,resume_template_form,New York University,target,senior,Accounting,finance_econ
+U100752,resume_workshop_registration,Emory University,semi_target,sophomore,Engineering,stem
+U100419,resume_template_form,San Diego State,non_target,senior,Statistics,stem
+U101968,resume_template_form,UT Austin,semi_target,junior,Political Science,other
+U100686,resume_workshop_registration,University of Nevada,non_target,sophomore,Accounting,finance_econ
+U100703,resume_template_form,Harvard University,target,senior,Mathematics,stem
+U100744,resume_workshop_registration,University of Virginia,semi_target,junior,Economics,finance_econ
+U101813,info_session_registration,University of Nevada,non_target,freshman,Statistics,stem
+U100208,resume_template_form,Cornell University,target,junior,Computer Science,stem
+U100616,resume_template_form,University of Virginia,semi_target,senior,Economics,finance_econ
+U100795,info_session_registration,Emory University,semi_target,junior,Engineering,stem
+U100771,resume_template_form,Ohio State University,semi_target,freshman,History,other
+U101044,email_capture,Cornell University,target,junior,Statistics,stem
+U100738,self_completed_profile,University of Kansas,non_target,junior,Psychology,other
+U101671,resume_template_form,University of Kansas,non_target,junior,Communications,other
+U101147,self_completed_profile,University of Pennsylvania,target,junior,Economics,finance_econ
+U101943,self_completed_profile,San Diego State,non_target,freshman,History,other
+U101506,resume_template_form,Kent State University,non_target,freshman,Finance,finance_econ
+U101431,resume_workshop_registration,University of Chicago,target,junior,Economics,finance_econ
+U101901,email_capture,Temple University,non_target,senior,Economics,finance_econ
+U100652,info_session_registration,University of Illinois,semi_target,senior,Accounting,finance_econ
+U101168,resume_template_form,University of Pennsylvania,target,senior,Mathematics,stem
+U100570,resume_workshop_registration,Arizona State University,non_target,senior,Computer Science,stem
+U100076,resume_workshop_registration,Harvard University,target,junior,Computer Science,stem
+U101622,resume_template_form,University of Virginia,semi_target,sophomore,History,other
+U101489,resume_template_form,University of Michigan,target,junior,Mathematics,stem
+U101795,email_capture,Cornell University,target,freshman,Finance,finance_econ
+U100365,info_session_registration,San Diego State,non_target,freshman,Finance,finance_econ
+U100580,resume_workshop_registration,Emory University,semi_target,junior,Economics,finance_econ
+U101575,email_capture,Temple University,non_target,sophomore,Communications,other
+U100976,resume_workshop_registration,Arizona State University,non_target,sophomore,Political Science,other
+U101394,email_capture,Ohio State University,semi_target,sophomore,Economics,finance_econ
+U100487,resume_workshop_registration,University of Illinois,semi_target,freshman,Finance,finance_econ
+U101659,resume_template_form,Ohio State University,semi_target,freshman,Engineering,stem
+U101739,info_session_registration,San Diego State,non_target,sophomore,Accounting,finance_econ
+U100371,resume_template_form,University of Nevada,non_target,senior,Computer Science,stem
+U101808,email_capture,San Diego State,non_target,senior,Computer Science,stem
+U101869,resume_template_form,University of Virginia,semi_target,junior,Psychology,other
+U100903,self_completed_profile,Ohio State University,semi_target,senior,Engineering,stem
+U101085,resume_template_form,Emory University,semi_target,sophomore,Psychology,other
+U101392,resume_template_form,University of Kansas,non_target,senior,Computer Science,stem
+U100286,info_session_registration,University of Illinois,semi_target,freshman,Computer Science,stem
+U100416,self_completed_profile,Kent State University,non_target,senior,Mathematics,stem
+U100565,resume_template_form,University of Michigan,target,junior,Computer Science,stem
+U101749,email_capture,University of Virginia,semi_target,senior,History,other
+U100753,email_capture,University of Nevada,non_target,junior,Mathematics,stem
+U100704,email_capture,Ohio State University,semi_target,sophomore,Finance,finance_econ
+U100241,email_capture,University of Nevada,non_target,junior,Statistics,stem
+U101265,resume_workshop_registration,Ohio State University,semi_target,junior,Statistics,stem
+U100748,resume_workshop_registration,UT Austin,semi_target,junior,History,other
+U101905,self_completed_profile,University of Chicago,target,junior,Computer Science,stem
+U101953,resume_workshop_registration,University of Chicago,target,senior,Mathematics,stem
+U100397,email_capture,University of Michigan,target,freshman,History,other
+U101525,resume_workshop_registration,Ohio State University,semi_target,sophomore,Statistics,stem
+U101980,resume_workshop_registration,Ohio State University,semi_target,junior,Finance,finance_econ
+U100504,resume_template_form,University of Chicago,target,senior,Communications,other
+U100646,resume_template_form,University of Michigan,target,freshman,Psychology,other
+U100940,email_capture,Arizona State University,non_target,senior,History,other
+U101924,resume_template_form,University of Virginia,semi_target,sophomore,Computer Science,stem
+U100807,email_capture,Temple University,non_target,sophomore,Finance,finance_econ
+U100472,self_completed_profile,University of Chicago,target,sophomore,Economics,finance_econ
+U101863,email_capture,San Diego State,non_target,junior,History,other
+U100534,self_completed_profile,University of Michigan,target,senior,Psychology,other
+U101722,email_capture,Kent State University,non_target,sophomore,Economics,finance_econ
+U100592,resume_workshop_registration,Harvard University,target,junior,Economics,finance_econ
+U100731,info_session_registration,Cornell University,target,junior,Psychology,other
+U100575,info_session_registration,Harvard University,target,freshman,Engineering,stem
+U101034,info_session_registration,University of Pennsylvania,target,junior,Economics,finance_econ
+U101186,resume_template_form,Boston College,semi_target,sophomore,Statistics,stem
+U101252,info_session_registration,UT Austin,semi_target,junior,Finance,finance_econ
+U100020,resume_workshop_registration,UT Austin,semi_target,junior,Accounting,finance_econ
+U100619,info_session_registration,Ohio State University,semi_target,freshman,Political Science,other
+U101962,resume_template_form,Harvard University,target,freshman,Communications,other
+U100984,email_capture,Ohio State University,semi_target,sophomore,Communications,other
+U100003,email_capture,Kent State University,non_target,sophomore,Political Science,other
+U100107,resume_template_form,University of Chicago,target,junior,Mathematics,stem
+U101520,resume_template_form,Harvard University,target,senior,History,other
+U101750,resume_template_form,Harvard University,target,sophomore,Finance,finance_econ
+U100222,resume_template_form,Arizona State University,non_target,senior,Economics,finance_econ
+U101368,resume_template_form,Cornell University,target,freshman,History,other
+U101791,info_session_registration,Harvard University,target,junior,History,other
+U101145,resume_template_form,Ohio State University,semi_target,senior,Mathematics,stem
+U101251,resume_template_form,Arizona State University,non_target,freshman,Mathematics,stem
+U100349,info_session_registration,Temple University,non_target,junior,Statistics,stem
+U101413,resume_template_form,Ohio State University,semi_target,junior,Political Science,other
+U100957,resume_template_form,University of Illinois,semi_target,freshman,Computer Science,stem
+U101907,self_completed_profile,Cornell University,target,junior,Communications,other
+U101377,info_session_registration,University of Illinois,semi_target,senior,History,other
+U101106,resume_template_form,University of Kansas,non_target,sophomore,History,other
+U100226,email_capture,San Diego State,non_target,junior,Political Science,other
+U101281,info_session_registration,Temple University,non_target,junior,Accounting,finance_econ
+U101098,self_completed_profile,University of Chicago,target,senior,Finance,finance_econ
+U100106,resume_template_form,University of Pennsylvania,target,freshman,Mathematics,stem
+U100262,resume_template_form,Harvard University,target,senior,Finance,finance_econ
+U100525,email_capture,University of Nevada,non_target,sophomore,Finance,finance_econ
