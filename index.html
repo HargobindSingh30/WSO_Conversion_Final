@@ -35,7 +35,7 @@ section .section-intro{font-size:1.05rem;color:var(--text-light);margin-bottom:3
 .finding{background:var(--white);border-radius:12px;padding:36px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,0.06)}
 .finding h3{font-size:1.35rem;margin-bottom:16px;color:var(--blue)}
 .finding p{color:var(--text);margin-bottom:16px}
-.finding .chart-wrap{margin:24px 0;background:var(--offwhite);border-radius:8px;padding:20px}
+.finding .chart-wrap{margin:24px 0;border-radius:8px;padding:8px 0}
 .finding .chart-wrap canvas{max-height:320px}
 
 pre{background:#1e293b;color:#e2e8f0;padding:20px;border-radius:8px;overflow-x:auto;font-size:0.85rem;line-height:1.6;margin:16px 0}
@@ -152,11 +152,11 @@ ORDER BY conversion_pct DESC;</code></pre>
 FROM users
 GROUP BY school_tier
 ORDER BY conversion_pct DESC;</code></pre>
-<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px">
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:16px">
 <div class="chart-wrap"><canvas id="chartTier"></canvas></div>
 <div class="chart-wrap"><canvas id="chartYear"></canvas></div>
-<div class="chart-wrap"><canvas id="chartMajor"></canvas></div>
 </div>
+<div class="chart-wrap" style="max-width:48%;margin:16px auto"><canvas id="chartMajor"></canvas></div>
 <p>Target school students convert at 25.2%, semi target at 16.7%, non target at 8.4%. Juniors, who are in peak recruiting season, lead all class years at 19.8%. Finance and economics majors convert at 23.4%.</p>
 </div>
 
@@ -304,10 +304,6 @@ GROUP BY mentor_booked;</code></pre>
 <footer class="footer">
 <div class="container">
 <p>WSO Academy Conversion Propensity Analysis</p>
-<div class="btn-row">
-<a href="https://github.com/HargobindSingh30/WSO_Conversion_Final/raw/main/powerbi/WSO_Conversion_PowerBI.pbix" class="btn btn-white">Download Power BI Report</a>
-<a href="https://github.com/HargobindSingh30/WSO_Conversion_Final" class="btn btn-outline" target="_blank">GitHub Link</a>
-</div>
 </div>
 </footer>
 
@@ -320,14 +316,18 @@ defaults.font.size=13;
 defaults.color='#4A5568';
 defaults.plugins.legend.display=false;
 
-function barChart(id,labels,data,color,axis='y'){
+function barChart(id,labels,data,color,axis='y',title='',maxVal=null){
+  const valAxis=axis==='y'?'x':'y';
+  const catAxis=axis==='y'?'y':'x';
+  const valCfg={beginAtZero:true,ticks:{callback:v=>v+'%'}};
+  if(maxVal) valCfg.suggestedMax=maxVal;
   new Chart(document.getElementById(id),{
     type:'bar',
     data:{labels,datasets:[{data,backgroundColor:color||BLUE,borderRadius:6,barPercentage:0.7}]},
     options:{indexAxis:axis,responsive:true,maintainAspectRatio:true,
-      scales:{[axis==='y'?'x':'y']:{beginAtZero:true,ticks:{callback:v=>v+'%'}},
-              [axis==='y'?'y':'x']:{grid:{display:false}}},
-      plugins:{tooltip:{callbacks:{label:c=>c.raw+'%'}}}}
+      scales:{[valAxis]:valCfg,[catAxis]:{grid:{display:false}}},
+      plugins:{tooltip:{callbacks:{label:c=>c.raw+'%'}},
+               title:{display:!!title,text:title,font:{size:15,weight:'bold'},color:'#1B2A4A'}}}
   });
 }
 
@@ -338,13 +338,13 @@ barChart('chartChannel',
   [BLUE,BLUE,BLUE,BLUE,BLUE,GRAY],'y');
 
 // School tier
-barChart('chartTier',['Target','Semi Target','Non Target','Unknown'],[25.2,16.7,8.4,4.8],BLUE,'x');
+barChart('chartTier',['Target','Semi Target','Non Target','Unknown'],[25.2,16.7,8.4,4.8],BLUE,'x','By School Tier',30);
 
 // Class year
-barChart('chartYear',['Junior','Senior','Sophomore','Freshman','Unknown'],[19.8,17.2,14.9,8.9,4.8],BLUE,'x');
+barChart('chartYear',['Junior','Senior','Sophomore','Freshman','Unknown'],[19.8,17.2,14.9,8.9,4.8],BLUE,'x','By Class Year',30);
 
 // Major
-barChart('chartMajor',['Finance/Econ','STEM','Other','Unknown'],[23.4,15.3,11.6,4.8],BLUE,'x');
+barChart('chartMajor',['Finance/Econ','STEM','Other','Unknown'],[23.4,15.3,11.6,4.8],BLUE,'x','By Major',30);
 
 // Intent actions (grouped)
 new Chart(document.getElementById('chartIntent'),{
