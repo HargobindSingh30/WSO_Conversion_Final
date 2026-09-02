@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WSO Academy: Conversion Propensity Analysis</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,700&family=Hanken+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --blue:#1B3A5C;--blue-light:#2C5F8A;--sky:#D6EAF8;--sky-pale:#EBF5FB;
+  --white:#fff;--offwhite:#F8FAFC;--text:#1B2A4A;--text-light:#4A5568;
+  --accent:#E76F51;--green:#2A9D8F;
+}
+body{font-family:'Hanken Grotesk',sans-serif;color:var(--text);background:var(--offwhite);line-height:1.7;font-weight:400}
+h1,h2,h3{font-family:'Fraunces',serif;font-weight:700;line-height:1.3}
+
+.hero{background:linear-gradient(135deg,var(--blue) 0%,var(--blue-light) 100%);color:var(--white);padding:80px 0 70px;text-align:center}
+.hero h1{font-size:2.6rem;margin-bottom:16px;letter-spacing:-0.5px}
+.hero p{font-size:1.15rem;opacity:0.9;max-width:720px;margin:0 auto;font-weight:300}
+
+.container{max-width:960px;margin:0 auto;padding:0 24px}
+
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin:-50px auto 50px;position:relative;z-index:2}
+.metric-card{background:var(--white);border-radius:12px;padding:28px 20px;text-align:center;box-shadow:0 4px 20px rgba(27,58,92,0.12)}
+.metric-card .value{font-family:'Fraunces',serif;font-size:2.2rem;font-weight:700;color:var(--blue)}
+.metric-card .label{font-size:0.85rem;color:var(--text-light);margin-top:6px;text-transform:uppercase;letter-spacing:0.5px;font-weight:600}
+
+section{padding:60px 0}
+section:nth-child(even){background:var(--sky-pale)}
+section h2{font-size:2rem;margin-bottom:12px;color:var(--blue)}
+section .section-intro{font-size:1.05rem;color:var(--text-light);margin-bottom:36px;max-width:760px}
+
+.finding{background:var(--white);border-radius:12px;padding:36px;margin-bottom:32px;box-shadow:0 2px 12px rgba(0,0,0,0.06)}
+.finding h3{font-size:1.35rem;margin-bottom:16px;color:var(--blue)}
+.finding p{color:var(--text);margin-bottom:16px}
+.finding .chart-wrap{margin:24px 0;background:var(--offwhite);border-radius:8px;padding:20px}
+.finding .chart-wrap canvas{max-height:320px}
+
+pre{background:#1e293b;color:#e2e8f0;padding:20px;border-radius:8px;overflow-x:auto;font-size:0.85rem;line-height:1.6;margin:16px 0}
+code{font-family:'Courier New',monospace}
+
+.model-results{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:24px}
+.model-card{background:var(--sky-pale);border-radius:10px;padding:24px;text-align:center}
+.model-card .val{font-family:'Fraunces',serif;font-size:2rem;font-weight:700;color:var(--blue)}
+.model-card .lbl{font-size:0.85rem;color:var(--text-light);margin-top:4px;font-weight:500}
+
+.ab-comparison{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:28px 0}
+.ab-card{border-radius:12px;padding:32px;text-align:center}
+.ab-card.control{background:var(--sky-pale);border:2px solid #B0C4DE}
+.ab-card.treatment{background:var(--blue);color:var(--white)}
+.ab-card .rate{font-family:'Fraunces',serif;font-size:2.8rem;font-weight:700}
+.ab-card .ab-label{font-size:0.9rem;margin-top:8px;opacity:0.85;font-weight:500}
+.ab-card.treatment .rate{color:var(--white)}
+
+.stat-row{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:24px 0}
+.stat-box{background:var(--white);border-radius:10px;padding:20px;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,0.06)}
+.stat-box .val{font-family:'Fraunces',serif;font-size:1.6rem;font-weight:700;color:var(--blue)}
+.stat-box .lbl{font-size:0.8rem;color:var(--text-light);margin-top:4px;font-weight:500}
+
+.rec-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.rec-card{background:var(--white);border-radius:12px;padding:28px;border-left:4px solid var(--blue);box-shadow:0 2px 10px rgba(0,0,0,0.05)}
+.rec-card h3{font-size:1.1rem;margin-bottom:10px;color:var(--blue);font-family:'Hanken Grotesk',sans-serif;font-weight:700}
+.rec-card p{font-size:0.95rem;color:var(--text-light);line-height:1.6}
+
+.footer{background:var(--blue);color:var(--white);padding:50px 0;text-align:center}
+.footer p{opacity:0.8;margin-bottom:20px}
+.btn-row{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+.btn{display:inline-block;padding:14px 28px;border-radius:8px;text-decoration:none;font-weight:600;font-size:0.95rem;transition:transform 0.15s}
+.btn:hover{transform:translateY(-2px)}
+.btn-white{background:var(--white);color:var(--blue)}
+.btn-outline{background:transparent;color:var(--white);border:2px solid rgba(255,255,255,0.5)}
+
+.pipeline-flow{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:8px;margin:30px 0;font-size:0.9rem;font-weight:500}
+.pipeline-step{background:var(--blue);color:var(--white);padding:10px 18px;border-radius:8px}
+.pipeline-arrow{color:var(--blue);font-size:1.4rem;font-weight:700}
+
+.table-wrap{overflow-x:auto;margin:20px 0}
+table{width:100%;border-collapse:collapse;font-size:0.9rem}
+th{background:var(--blue);color:var(--white);padding:12px 16px;text-align:left;font-weight:600}
+td{padding:10px 16px;border-bottom:1px solid #E2E8F0}
+tr:nth-child(even){background:var(--sky-pale)}
+
+@media(max-width:768px){
+  .metrics{grid-template-columns:repeat(2,1fr)}
+  .model-results,.ab-comparison,.stat-row,.rec-grid{grid-template-columns:1fr}
+  .hero h1{font-size:1.8rem}
+  .pipeline-flow{flex-direction:column}
+}
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<header class="hero">
+<div class="container">
+<h1>WSO Academy: Conversion Propensity Analysis</h1>
+<p>The Academy division of Wall Street Oasis offers paid courses and mentorship programs designed to help students break into competitive finance roles. This project identifies which free members are most likely to convert into a paid Academy cohort, surfaces the behavioral and demographic factors that drive that conversion, and validates through a controlled A/B test that targeting high propensity users with outreach produces measurably stronger results than uniform messaging.</p>
+</div>
+</header>
+
+
+
+<!-- SECTION 2: THE DATA -->
+<section>
+<div class="container">
+<h2>The Data</h2>
+<p class="section-intro">User data was collected from five separate systems across the WSO platform and consolidated into a single analytical table through a Python/Pandas integration pipeline.</p>
+
+<div style="margin-top:12px">
+<div class="finding">
+<h3>Source Descriptions</h3>
+<p><strong>Clickstream</strong> (<code>events.csv</code>) captured over 51,000 individual user actions: logins, content views, course previews, company searches, mentor bookings, and resume tool usage.</p>
+<p><strong>Identity Resolution</strong> (<code>identity_map.csv</code>) mapped anonymous browser sessions to known user accounts. Approximately 15% of visitors never identified themselves and were excluded from the analysis.</p>
+<p><strong>Profile Data</strong> (<code>profiles.csv</code>) including school, class year, and major was volunteered by users through free offering gates: resume template downloads, info session registrations, resume workshops, email prompts, and self completed profiles. Roughly 66% of users provided this information. The remaining users are categorized as "unknown" rather than imputed, because the absence of profile data is itself an informative signal about engagement.</p>
+<p><strong>Email Engagement</strong> (<code>email_engagement.csv</code>) provided open and click rates from the email platform.</p>
+<p><strong>Billing</strong> (<code>subscriptions.csv</code>) records contained only users who upgraded, so the conversion label was derived by checking whether a user appeared in the billing table.</p>
+<p>The integration pipeline (<code>01_build_dataset.py</code>) resolves identities, aggregates the raw event stream to one row per user, joins profile and email data, and derives the upgrade label from billing. The resulting clean dataset (<code>conversion_dataset.csv</code>) contains 1,708 resolved users across 25 features. A full column reference is available in <code>DATA_DICTIONARY.md</code>.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- SECTION 3: WHO CONVERTS -->
+<section>
+<div class="container">
+<h2>Who Converts</h2>
+<p class="section-intro">The clean dataset was analyzed to answer a straightforward question: what separates users who upgrade from those who don't? Overall, 237 of 1,708 free members upgraded to paid Academy, a rate of 13.9%.</p>
+
+<!-- Finding 1: Channels -->
+<div class="finding">
+<h3>Finding 1: Acquisition Channel Matters Enormously</h3>
+<pre><code>SELECT profile_source, COUNT(*) AS users, SUM(upgraded) AS upgraders,
+       ROUND(100.0 * AVG(upgraded), 1) AS conversion_pct
+FROM users
+GROUP BY profile_source
+ORDER BY conversion_pct DESC;</code></pre>
+<div class="chart-wrap"><canvas id="chartChannel"></canvas></div>
+<p>Workshop registrants convert at 22.7% and info session registrants at 21.1%. Users who never engaged a free offering convert at just 4.8%. The free offerings where WSO surfaces the Academy vision produce the highest converting members.</p>
+</div>
+
+<!-- Finding 2: Fit -->
+<div class="finding">
+<h3>Finding 2: Fit Follows Finance Recruiting Patterns</h3>
+<pre><code>SELECT school_tier, COUNT(*) AS users, SUM(upgraded) AS upgraders,
+       ROUND(100.0 * AVG(upgraded), 1) AS conversion_pct
+FROM users
+GROUP BY school_tier
+ORDER BY conversion_pct DESC;</code></pre>
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px">
+<div class="chart-wrap"><canvas id="chartTier"></canvas></div>
+<div class="chart-wrap"><canvas id="chartYear"></canvas></div>
+<div class="chart-wrap"><canvas id="chartMajor"></canvas></div>
+</div>
+<p>Target school students convert at 25.2%, semi target at 16.7%, non target at 8.4%. Juniors, who are in peak recruiting season, lead all class years at 19.8%. Finance and economics majors convert at 23.4%.</p>
+</div>
+
+<!-- Finding 3: Intent -->
+<div class="finding">
+<h3>Finding 3: Intent Actions Are the Strongest Individual Predictors</h3>
+<pre><code>SELECT mentor_booked, COUNT(*) AS users,
+       ROUND(100.0 * AVG(upgraded), 1) AS conversion_pct
+FROM users
+GROUP BY mentor_booked;</code></pre>
+<div class="chart-wrap"><canvas id="chartIntent"></canvas></div>
+<p>Mentor booking: 31.6% vs 7.6% (4.2x lift). Resume tool: 23.4% vs 8.0% (2.9x). Live resume session: 27.3% vs 10.9% (2.5x).</p>
+</div>
+
+<!-- Finding 4: Intent vs Ambient -->
+<div class="finding">
+<h3>Finding 4: Not All Engagement Is Equal</h3>
+<pre><code>SELECT
+  ROUND((SELECT AVG(course_previews) FROM users WHERE upgraded=1) /
+        (SELECT AVG(course_previews) FROM users WHERE upgraded=0), 2) AS course_preview_ratio,
+  ROUND((SELECT AVG(logins) FROM users WHERE upgraded=1) /
+        (SELECT AVG(logins) FROM users WHERE upgraded=0), 2) AS login_ratio;</code></pre>
+<div class="chart-wrap"><canvas id="chartSeparation"></canvas></div>
+<p>Course previews separate converters at 2.4x. Intent ratio at 1.7x. But logins at only 1.2x and content views at 1.2x. What users do on the platform matters far more than how much time they spend on it.</p>
+</div>
+
+</div>
+</section>
+
+<!-- SECTION 4: THE MODEL -->
+<section>
+<div class="container">
+<h2>The Model</h2>
+<p class="section-intro">Logistic regression was chosen as the primary model because its coefficients directly explain what drives conversion. A Random Forest was trained alongside as a benchmark.</p>
+
+<div class="finding">
+<h3>Approach</h3>
+<p>The dataset was split 80/20, stratified to maintain the 14% conversion rate in both sets. Five fold cross validation was run on the training set for a stable performance estimate. The test set was evaluated exactly once at the end.</p>
+<p>Because the data is imbalanced (86% of users do not convert), accuracy is a misleading metric. A model that simply predicts "nobody upgrades" would score 86% accuracy and be useless. Evaluation uses ROC AUC (how well the model ranks users) and precision@k (among the top scored users, what fraction actually convert).</p>
+</div>
+
+<div class="finding">
+<h3>Performance</h3>
+<div class="model-results">
+<div class="model-card"><div class="val">0.867</div><div class="lbl">Logistic Regression (Test AUC)</div></div>
+<div class="model-card"><div class="val">0.873</div><div class="lbl">Random Forest (Test AUC)</div></div>
+</div>
+<p>The forest barely outperforms the logistic regression, validating the choice of the interpretable model.</p>
+
+<div class="table-wrap">
+<table>
+<tr><th>Top Users Targeted</th><th>Conversion Rate</th><th>Lift vs Random</th></tr>
+<tr><td>Top 25</td><td>60.0%</td><td>4.4x</td></tr>
+<tr><td>Top 50</td><td>50.0%</td><td>3.6x</td></tr>
+<tr><td>Top 100</td><td>38.0%</td><td>2.8x</td></tr>
+</table>
+</div>
+</div>
+
+<div class="finding">
+<h3>Conversion Drivers</h3>
+<div class="chart-wrap"><canvas id="chartCoefs"></canvas></div>
+<p>The top drivers from the model coefficients confirm what the exploratory analysis found. Mentor booking is the strongest positive predictor, followed by target school, finance/econ major, and resume tool usage. Logins rank near zero. Two independent methods (exploratory analysis and the model) pointing at the same drivers is what builds confidence that the signal is real and not an artifact of any single technique.</p>
+</div>
+</div>
+</section>
+
+<!-- SECTION 5: A/B TEST -->
+<section>
+<div class="container">
+<h2>A/B Test</h2>
+<p class="section-intro">The model produces a propensity score for every free member. But a model that predicts well is only valuable if acting on its predictions improves outcomes. The A/B test answers a concrete business question: given a fixed budget to email 300 free members about the Academy, does emailing the 300 users the model scores highest convert more than emailing 300 users at random?</p>
+
+<div class="finding">
+<h3>Design</h3>
+<p>A fresh cohort of 1,000 free members that the model had never seen was generated to simulate a forward looking population. All 1,000 were scored with the propensity model. Two targeting strategies were applied at equal budget:</p>
+<div class="table-wrap">
+<table>
+<tr><th></th><th>Uniform (Control)</th><th>Targeted (Treatment)</th></tr>
+<tr><td><strong>Who gets emailed</strong></td><td>300 users chosen at random</td><td>Top 300 by model score</td></tr>
+<tr><td><strong>What they receive</strong></td><td>Academy nudge</td><td>Same Academy nudge</td></tr>
+<tr><td><strong>Budget</strong></td><td>300 emails</td><td>300 emails</td></tr>
+</table>
+</div>
+<p>Same message, same cost. The only difference is how the recipients were selected.</p>
+</div>
+
+<div class="finding">
+<h3>Results</h3>
+<div class="ab-comparison">
+<div class="ab-card control">
+<div class="ab-label">Uniform (Random 300)</div>
+<div class="rate">15.3%</div>
+<div class="ab-label">46 conversions</div>
+</div>
+<div class="ab-card treatment">
+<div class="ab-label">Targeted (Top 300)</div>
+<div class="rate">33.0%</div>
+<div class="ab-label">99 conversions</div>
+</div>
+</div>
+
+<div class="stat-row">
+<div class="stat-box"><div class="val">+18 pp</div><div class="lbl">Absolute Lift</div></div>
+<div class="stat-box"><div class="val">5.05</div><div class="lbl">z Statistic</div></div>
+<div class="stat-box"><div class="val">&lt; 0.001</div><div class="lbl">p Value</div></div>
+</div>
+
+<p>The result is statistically significant. Model targeted outreach more than doubles the conversion rate at the same cost. The 95% confidence interval (+11 to +24 pp) confirms that even in the most conservative estimate, targeting delivers substantial lift over uniform messaging.</p>
+<p>The model does not just predict who will convert. It identifies users where outreach actually changes the outcome.</p>
+</div>
+</div>
+</section>
+
+<!-- SECTION 6: RECOMMENDATIONS -->
+<section>
+<div class="container">
+<h2>Insights and Recommendations</h2>
+<div class="rec-grid">
+<div class="rec-card">
+<h3>1. Invest in Event Based Acquisition</h3>
+<p>Resume workshops and info sessions produce the highest converting free members at 21 to 23%, compared to 5% for users who never engaged a free offering. Expanding these programs directly increases the pool of high propensity users.</p>
+</div>
+<div class="rec-card">
+<h3>2. Deploy the Propensity Model for Outreach</h3>
+<p>Concentrate Academy nudges on high propensity users rather than messaging the full free member base. The A/B test confirms this more than doubles conversion at the same budget.</p>
+</div>
+<div class="rec-card">
+<h3>3. Track Mentor Bookings as a Leading Indicator</h3>
+<p>Mentor booking is the single strongest predictor of conversion (4.2x lift). It should be monitored as a KPI. Making it easier or offering free sessions to high potential users could both signal and accelerate conversion.</p>
+</div>
+<div class="rec-card">
+<h3>4. Measure Intent, Not Volume</h3>
+<p>Logins and page views do not meaningfully predict conversion. Tracking daily active users or session counts as engagement metrics will miss the signal. The metrics that matter are intent actions: mentor bookings, course previews, and target company searches.</p>
+</div>
+<div class="rec-card">
+<h3>5. Close the Profile Gap</h3>
+<p>22% of users never volunteered school, year, or major. These users convert at the lowest rate and are harder to score accurately. Each free offering gate is an opportunity to capture this data and improve targeting.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+<div class="container">
+<p>WSO Academy Conversion Propensity Analysis</p>
+<div class="btn-row">
+<a href="https://github.com/HargobindSingh30/WSO_Conversion_Final/raw/main/powerbi/WSO_Conversion_PowerBI.pbix" class="btn btn-white">Download Power BI Report</a>
+<a href="https://github.com/HargobindSingh30/WSO_Conversion_Final" class="btn btn-outline" target="_blank">GitHub Link</a>
+</div>
+</div>
+</footer>
+
+<!-- CHARTS -->
+<script>
+const BLUE='#1B3A5C',LIGHT='#2C5F8A',GREEN='#2A9D8F',ACCENT='#E76F51',GRAY='#94A3B8';
+const defaults=Chart.defaults;
+defaults.font.family="'Hanken Grotesk',sans-serif";
+defaults.font.size=13;
+defaults.color='#4A5568';
+defaults.plugins.legend.display=false;
+
+function barChart(id,labels,data,color,axis='y'){
+  new Chart(document.getElementById(id),{
+    type:'bar',
+    data:{labels,datasets:[{data,backgroundColor:color||BLUE,borderRadius:6,barPercentage:0.7}]},
+    options:{indexAxis:axis,responsive:true,maintainAspectRatio:true,
+      scales:{[axis==='y'?'x':'y']:{beginAtZero:true,ticks:{callback:v=>v+'%'}},
+              [axis==='y'?'y':'x']:{grid:{display:false}}},
+      plugins:{tooltip:{callbacks:{label:c=>c.raw+'%'}}}}
+  });
+}
+
+// Channel chart
+barChart('chartChannel',
+  ['Resume Workshop','Info Session','Self Completed','Resume Template','Email Capture','Unknown'],
+  [22.7,21.1,16.1,13.3,11.6,4.8],
+  [BLUE,BLUE,BLUE,BLUE,BLUE,GRAY],'y');
+
+// School tier
+barChart('chartTier',['Target','Semi Target','Non Target','Unknown'],[25.2,16.7,8.4,4.8],BLUE,'x');
+
+// Class year
+barChart('chartYear',['Junior','Senior','Sophomore','Freshman','Unknown'],[19.8,17.2,14.9,8.9,4.8],BLUE,'x');
+
+// Major
+barChart('chartMajor',['Finance/Econ','STEM','Other','Unknown'],[23.4,15.3,11.6,4.8],BLUE,'x');
+
+// Intent actions (grouped)
+new Chart(document.getElementById('chartIntent'),{
+  type:'bar',
+  data:{
+    labels:['Mentor Booking','Resume Tool','Live Resume Session'],
+    datasets:[
+      {label:'Yes',data:[31.6,23.4,27.3],backgroundColor:BLUE,borderRadius:6,barPercentage:0.6},
+      {label:'No',data:[7.6,8.0,10.9],backgroundColor:GRAY,borderRadius:6,barPercentage:0.6}
+    ]
+  },
+  options:{responsive:true,maintainAspectRatio:true,
+    scales:{y:{beginAtZero:true,ticks:{callback:v=>v+'%'}},x:{grid:{display:false}}},
+    plugins:{legend:{display:true,position:'top'},
+             tooltip:{callbacks:{label:c=>c.dataset.label+': '+c.raw+'%'}}}}
+});
+
+// Separation ratios
+new Chart(document.getElementById('chartSeparation'),{
+  type:'bar',
+  data:{
+    labels:['Course Previews','Intent Ratio','Content Views','Logins'],
+    datasets:[{data:[2.42,1.71,1.24,1.21],
+      backgroundColor:[BLUE,BLUE,GRAY,GRAY],borderRadius:6,barPercentage:0.6}]
+  },
+  options:{indexAxis:'y',responsive:true,maintainAspectRatio:true,
+    scales:{x:{beginAtZero:true,suggestedMax:3,title:{display:true,text:'Converter / Non Converter Mean Ratio'}},
+            y:{grid:{display:false}}},
+    plugins:{tooltip:{callbacks:{label:c=>c.raw+'x separation'}}}}
+});
+
+// Coefficients
+new Chart(document.getElementById('chartCoefs'),{
+  type:'bar',
+  data:{
+    labels:['Mentor Booking','Target School','Finance/Econ Major','Resume Tool','Logins',
+            'Info Session Channel','Intent Events','Email Open Rate','Live Resume Session',
+            'Junior Year','Workshop Channel','Course Previews'],
+    datasets:[{data:[0.481,0.387,0.367,0.296,0.290,0.268,0.245,0.228,0.219,0.206,0.201,0.201],
+      backgroundColor:[BLUE,BLUE,BLUE,BLUE,ACCENT,BLUE,BLUE,BLUE,BLUE,BLUE,BLUE,BLUE],
+      borderRadius:6,barPercentage:0.65}]
+  },
+  options:{indexAxis:'y',responsive:true,maintainAspectRatio:false,
+    scales:{x:{beginAtZero:true,title:{display:true,text:'Standardized Coefficient'}},
+            y:{grid:{display:false}}},
+    plugins:{tooltip:{callbacks:{label:c=>'Coefficient: '+c.raw.toFixed(3)}}}},
+});
+document.getElementById('chartCoefs').parentElement.style.height='400px';
+</script>
+
+</body>
+</html>
