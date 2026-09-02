@@ -26,16 +26,16 @@ WSO_Conversion_Final/
 │   └── DATA_DICTIONARY.md          Column reference
 │
 ├── scripts/
-│   ├── 01_build_dataset.py         Integration pipeline: 5 sources → clean table
-│   ├── 02_load_to_sqlite.py        Loads clean table into SQLite
-│   └── 03_analysis.py              SQL analysis: "who converts and why"
+│   ├── 01_build_dataset.py         Integration pipeline: 5 sources to clean table
+│   ├── 02_load_to_sqlite.py        Loads clean table into a database for querying
+│   └── 03_analysis.py              Analytical queries: "who converts and why"
 │
 ├── notebooks/
 │   ├── 04_conversion_model.ipynb   Logistic regression + Random Forest (Colab)
 │   └── 05_ab_test.ipynb            A/B test simulation and significance test (Colab)
 │
 ├── outputs/
-│   ├── analysis_results.json       Findings from the SQL analysis
+│   ├── analysis_results.json       Findings from the analysis
 │   ├── model_coefficients.csv      Logistic regression coefficients
 │   ├── propensity_scores.csv       Propensity score for every user
 │   └── ab_test_results.json        A/B test results and statistics
@@ -52,16 +52,16 @@ WSO_Conversion_Final/
 **Step 1: Data Integration** (`01_build_dataset.py`)
 
 Five raw source exports from different systems (clickstream, identity resolution,
-profiles, email, billing) are stitched together in Python/Pandas into one clean,
+profiles, email, billing) are stitched together in Python and Pandas into one clean,
 user level table. Identity resolution maps anonymous browser sessions to known
 users. Profile data from volunteered form submissions is joined where available,
 with missing values treated as an explicit "unknown" category.
 
-**Step 2: Analysis** (`02_load_to_sqlite.py` + `03_analysis.py`)
+**Step 2: Analysis** (`03_analysis.py`)
 
-The clean table is loaded into SQLite and queried to build the "who converts"
-story: conversion rates by acquisition channel, school tier, class year, and
-major; intent action lifts; and the converter vs non converter behavioral profile.
+The clean table is queried to build the "who converts" story: conversion rates by
+acquisition channel, school tier, class year, and major; intent action lifts; and
+the converter vs non converter behavioral profile.
 
 **Step 3: Model** (`04_conversion_model.ipynb`)
 
@@ -80,9 +80,9 @@ converts at a significantly higher rate.
 **Step 5: Dashboard** (Power BI)
 
 An 8 page business report covering: executive summary, acquisition channels, student
-fit segments, intent vs activity analysis, converter profile, model drivers,
+fit segments, intent vs activity analysis, converter profile, model drivers, and
 A/B test results.
 
 ## Tools
 
-Python, Pandas, SQLite, scikit learn, scipy, Google Colab, Power BI
+Python, Pandas, SQL, scikit learn, scipy, Google Colab, Power BI
